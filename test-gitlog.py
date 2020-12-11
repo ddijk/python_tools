@@ -2,7 +2,7 @@
 """tests for gitlog.py"""
 
 import os
-from subprocess import getstatusoutput, getoutput
+from subprocess import getstatusoutput
 
 prg = './gitlog.py'
 
