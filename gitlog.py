@@ -38,15 +38,17 @@ def main():
 
     jira_issues = set()
 
-    pattern=r'(HHOPPDEV-\d{4,5})'
+    pattern=r'(HHOPPDEV-\d{2,5})'
     for line in file_arg:
 
         match = re.search(pattern, line.strip())
         if match:
             jira_issues.add(match.group(1))
 
-    for issue in jira_issues:
-        print(issue)
+    jira_list = list(jira_issues)
+    jira_list.sort()
+    for issue in jira_list:
+        print(f'https://jira.ontwikkel.local/browse/{issue}')
 
 # --------------------------------------------------
 if __name__ == '__main__':
