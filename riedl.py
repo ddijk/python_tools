@@ -24,6 +24,11 @@ def get_args():
                         metavar='str',
                         help='text to use in regex')
 
+    parser.add_argument('-d',
+                        '--debug',
+                        help='flag to print debug info ',
+                        action='store_true')
+
 
     return parser.parse_args()
 
@@ -35,17 +40,22 @@ def main():
     args = get_args()
     text = args.text
     pattern = args.pattern
+    debug=args.debug
 
-    print(f'text = "{text}"')
-    print(f'pattern = "{pattern}"')
+    if debug:
+        print(f'text = "{text}"')
+        print(f'pattern = "{pattern}"')
 
     # pattern= r'^(SUBJECT|FROM)'
     m = re.search(pattern, text)
 
-    print(m)
+    # print(m)
 
     if m:
         print(m.group(0))
+        if ( len(m.groups())):
+            if debug:
+                print(f'matched "{m.group(1)}"')
     else:
         print('no match')
 
