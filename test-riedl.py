@@ -21,6 +21,14 @@ def test_b():
     expected='09:34'
     assert out.strip() == expected
 
+def test_c():
+    text = '9:34'
+    out = getoutput(f'{prg} "{pattern}" "{text}"')
+    # print(out)
+    expected='9:34'
+    assert out.strip() == expected
+
+
 def test_invalid_input():
     text = '29:34'
     out = getoutput(f'{prg} "{pattern}" "{text}"')
