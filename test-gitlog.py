@@ -13,3 +13,10 @@ def test_a():
     expected= ('https://jira.ontwikkel.local/browse/HHOPPDEV-12345\n'
                'https://jira.ontwikkel.local/browse/HHOPPDEV-7722')
     assert out.strip() == expected
+
+def test_b():
+    rv, out = getstatusoutput(f'{prg} lijst')
+    # print(out)
+    assert rv == 0
+    expected= 'https://jira.ontwikkel.local/browse/HHOPPDEV-12345\nhttps://jira.ontwikkel.local/browse/HHOPPDEV-7722'
+    assert out.strip() == expected
