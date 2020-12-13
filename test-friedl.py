@@ -4,7 +4,7 @@
 import os
 from subprocess import getoutput
 
-prg = './riedl.py'
+prg = './friedl.py'
 
 pattern = r'^([01]?[0-9]|2[0-3]):[0-5][0-9]'
 def test_a():
