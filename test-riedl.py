@@ -6,7 +6,7 @@ from subprocess import getoutput
 
 prg = './riedl.py'
 
-pattern = r'([0-1][0-9]|2[0-3]):[0-5][0-9]'
+pattern = r'^([01]?[0-9]|2[0-3]):[0-5][0-9]'
 def test_a():
     text = '12:34'
     out = getoutput(f'{prg} "{pattern}" "{text}"')
