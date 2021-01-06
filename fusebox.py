@@ -12,13 +12,15 @@ import json
 
 # --------------------------------------------------
 
+
 def main():
     response = requests.get(
         'https://www.thenorthface.nl/shop/nl/tnf-nl/base-camp-fuse-box-3kvr', stream=True)
     price_lines = filter(lambda s: s.find('itemPrices')
                          != -1, map(bytes.decode, response.iter_lines()))
 
-    list(map(checkPrices, map(capturePrices, price_lines)))
+# filter is needed to skip lines with text 'itemPrices' that do not have the 'prices' object behind it
+    list(map(checkPrices,  filter(lambda x: x, map(capturePrices, price_lines))))
 
 
 def capturePrices(line):
@@ -32,7 +34,8 @@ def checkPrices(match):
     for product in [{"color": "ASPHALT GREY/SUMMIT GOLD", "price": 130}, {"color": "TNF BLACK", "price": 104}]:
         print('-----------')
         print(f'kleur: {product["color"]}')
-        currentPrice = prices['713173']['pricing']['7000000000000073250'][product["color"]]['highPriceNumeric']
+        currentPrice = prices['713173']['pricing']['7000000000000073250'][product["color"]
+                                                                          ]['highPriceNumeric']
         if currentPrice < product["price"]:
             print(f'PRIJS IS GEDAALD: {currentPrice}')
         if currentPrice == product["price"]:
