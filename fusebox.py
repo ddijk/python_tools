@@ -31,15 +31,23 @@ def capturePrices(line):
 def checkPrices(match):
     prices = json.loads(match.group(1))
 #                 for color in [{"c": "ASPHALT GREY/SUMMIT GOLD", "p": 130},{"c":"TNF BLACK", "p": 104}, {"c":"Wrought Iron-Tnf Black", "p": 130}]:
-    for product in [{"color": "ASPHALT GREY/SUMMIT GOLD", "price": 130}, {"color": "TNF BLACK", "price": 104}]:
+    # for product in [{"color": "ASPHALT GREY/SUMMIT GOLD", "price": 130}, {"color": "TNF BLACK", "price": 104}]:
+     # print('-----------')
+     # print(f'kleur: {product["color"]}')
+    products = prices['713173']['pricing']['7000000000000073250']
+
+    for product in products.keys():
+
+        print(product, end='')
+        currentPrice = products[product]['highPriceNumeric']
+        currentListPrice = products[product]['highListPriceNumeric']
+        print(f'  price is {currentPrice}', end='')
+        print('  AANBIEDING') if currentPrice < currentListPrice else print('')
         print('-----------')
-        print(f'kleur: {product["color"]}')
-        currentPrice = prices['713173']['pricing']['7000000000000073250'][product["color"]
-                                                                          ]['highPriceNumeric']
-        if currentPrice < product["price"]:
-            print(f'PRIJS IS GEDAALD: {currentPrice}')
-        if currentPrice == product["price"]:
-            print(f'prijs is gelijk: {currentPrice}')
+        #    if currentPrice < product["price"]:
+                # print(f'PRIJS IS GEDAALD: {currentPrice}')
+            # if currentPrice == product["price"]:
+                # print(f'prijs is gelijk: {currentPrice}')
 
 
 # --------------------------------------------------
