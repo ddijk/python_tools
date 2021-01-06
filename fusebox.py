@@ -25,7 +25,8 @@ def main():
             m =  re.search(pattern, s)
             if m:
                  prices = json.load(StringIO(m.group(1)))
-                 for color in [{"c": "ASPHALT GREY/SUMMIT GOLD", "p": 130},{"c":"TNF BLACK", "p": 104}, {"c":"Wrought Iron-Tnf Black", "p": 130}]:
+#                 for color in [{"c": "ASPHALT GREY/SUMMIT GOLD", "p": 130},{"c":"TNF BLACK", "p": 104}, {"c":"Wrought Iron-Tnf Black", "p": 130}]:
+                 for color in [{"c": "ASPHALT GREY/SUMMIT GOLD", "p": 130},{"c":"TNF BLACK", "p": 104} ]:
                      print('-----------')
                      print(f'kleur: {color["c"]}')
                      handle(prices, color["c"], color["p"])
