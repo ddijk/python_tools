@@ -139,17 +139,17 @@ def main():
     # print(f'per page is {per_page} en total={total_number_races}')
     nieuwelingenRaces = []
     
-    nieuwelingenRaces.extend(filterCat('Nieuwelingen (M)', events["data"]))
+    nieuwelingenRaces.extend(filterRaces('Nieuwelingen (M)', events["data"]))
 
     # first page already retrieved, so start at index '1'
-    # for i in range(1, math.ceil(total_number_races/per_page)):
-    for i in range(1, 3):
+    for i in range(1, math.ceil(total_number_races/per_page)):
+    # for i in range(1, 3):
         # pages start at index 1:
         next_page = i+1
         print(f'page is {next_page}')
         responseEvents = session.get(f'{url}/api/events?page={next_page}&filter[discipline]=&filter[location]=&filter[type]=&filter[region]=&filter[state]=&filter[gender]=&filter[role]=&include[1]=organisation&include[2]=races.classification', cookies=cookies3, proxies=proxy, headers=headers2)
         events = responseEvents.json()
-        nieuwelingenRaces.extend(filterCat('Nieuwelingen (M)', events["data"]))
+        nieuwelingenRaces.extend(filterRaces('Nieuwelingen (M)', events["data"]))
 
     out_fh = open('out.txt', 'wt')
     for i in nieuwelingenRaces:
@@ -160,7 +160,7 @@ def main():
     out_fh.close()
 
 
-def filterCat(cat, data):
+def filterRaces(cat, data):
     # filter out races for Nieuwelingen:
     return  list(filter(lambda x: filterCat2(cat, x), data))
 
@@ -168,7 +168,12 @@ def filterCat2(cat, e):
     if not 'races' in e:
         print(f'{e["name"]} bevat geen races')
         return False
-    return cat in map(lambda y: y['name'], e['races']),
+    a= map(lambda y: y['name'], e['races'])    
+
+    print('========'+cat)
+    print(list(a))
+
+    return cat in map(lambda y: y['name'], e['races'])
 
 def findToken(response):
     tokenLine = filter(lambda s: s.find('_token')
