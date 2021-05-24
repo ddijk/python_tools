@@ -162,7 +162,7 @@ def main():
 
 def filterRaces(cat, data):
     # filter out races for Nieuwelingen:
-    return  list(filter(lambda x: filterCat2(cat, x), data))
+    return  filter(lambda x: filterCat2(cat, x), data)
 
 def filterCat2(cat, e):
     if not 'races' in e:
