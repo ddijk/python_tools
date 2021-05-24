@@ -9,6 +9,8 @@ import argparse
 import requests
 from requests.models import Response
 import re
+import math
+import json
 # --------------------------------------------------
 def get_args():
     """Get command-line arguments"""
@@ -35,11 +37,11 @@ def get_args():
                         type=int,
                         default=0)
 
-    parser.add_argument( 'file',
+    parser.add_argument( '-f', '--file',
                         help='A readable file',
                         metavar='FILE',
                         type=argparse.FileType('rt'),
-                        default=None)
+                        default='credentials')
 
     parser.add_argument('-o',
                         '--on',
@@ -120,15 +122,53 @@ def main():
     print(f'cookies van redirect: {cookies3}')
 
     headers2 = { 'Accept' : 'application/json'}
-    responseEvents = session.get(f'{url}/api/events', cookies=cookies3, proxies=proxy, headers=headers2)
+    responseEvents = session.get(f'{url}/api/events?page=1&filter[discipline]=&filter[location]=&filter[type]=&filter[region]=&filter[state]=&filter[gender]=&filter[role]=&include[1]=organisation&include[2]=races.classification', cookies=cookies3, proxies=proxy, headers=headers2)
 
     print(f'events response status {responseEvents.status_code}')
 
     # print(f'{responseEvents.json()}')
     events = responseEvents.json()
     # print(f'events response {events.meta}')
-    print(f'events response {events}')
-    print(f'events response {events["meta"]}')
+    # j= json.dumps(events["data"])
+    # print(f'events response {j}')
+
+    # print(f'events response {events["meta"]}')
+    total_number_races= events["meta"]["total"]
+    per_page = events["meta"]["per_page"]
+
+    # print(f'per page is {per_page} en total={total_number_races}')
+    nieuwelingenRaces = []
+    
+    nieuwelingenRaces.extend(filterCat('Nieuwelingen (M)', events["data"]))
+
+    # first page already retrieved, so start at index '1'
+    # for i in range(1, math.ceil(total_number_races/per_page)):
+    for i in range(1, 3):
+        # pages start at index 1:
+        next_page = i+1
+        print(f'page is {next_page}')
+        responseEvents = session.get(f'{url}/api/events?page={next_page}&filter[discipline]=&filter[location]=&filter[type]=&filter[region]=&filter[state]=&filter[gender]=&filter[role]=&include[1]=organisation&include[2]=races.classification', cookies=cookies3, proxies=proxy, headers=headers2)
+        events = responseEvents.json()
+        nieuwelingenRaces.extend(filterCat('Nieuwelingen (M)', events["data"]))
+
+    out_fh = open('out.txt', 'wt')
+    for i in nieuwelingenRaces:
+        datum = i["date"][0]
+        out_fh.write(f'wedst: {i["name"]} op {datum} state={i["state"]}\n')
+        print(f'wedst: {i["name"]} op {datum} state={i["state"]}')
+
+    out_fh.close()
+
+
+def filterCat(cat, data):
+    # filter out races for Nieuwelingen:
+    return  list(filter(lambda x: filterCat2(cat, x), data))
+
+def filterCat2(cat, e):
+    if not 'races' in e:
+        print(f'{e["name"]} bevat geen races')
+        return False
+    return cat in map(lambda y: y['name'], e['races']),
 
 def findToken(response):
     tokenLine = filter(lambda s: s.find('_token')

@@ -1,0 +1,1 @@
+https://mijn.knwu.nl/api/events?filter[discipline]=&filter[location]=&filter[type]=&filter[region]=&filter[state]=&filter[gender]=&filter[role]=&include[0]=addresses&include[1]=organisation&include[2]=races.classification&include[3]=races.results&include[4]=reports&permissions[0]=activity&permissions[1]=create&permissions[2]=export&page=18&view=list

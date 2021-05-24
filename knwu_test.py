@@ -6,6 +6,7 @@ Purpose: Rock the Casbah
 """
 
 import argparse
+import json
 
 
 # --------------------------------------------------
@@ -38,8 +39,9 @@ def get_args():
                         '--file',
                         help='A readable file',
                         metavar='FILE',
+                        required=False,
                         type=argparse.FileType('rt'),
-                        default=None)
+                        default='testdata.json')
 
     parser.add_argument('-o',
                         '--on',
@@ -66,18 +68,26 @@ def main():
     print(f'flag_arg = "{flag_arg}"')
     # print(f'positional = "{pos_arg}"')
 
-    credentials = {}
-    for line in file_arg:
+    data = json.load(file_arg)
 
-        items = line.rstrip().split('=')
-        credentials[items[0]] = items[1]
+    cat = 'Nieuwelingen (M)' 
+    # filter out races for Nieuwelingen:
+    res =  list(filter(lambda x: filterCat(cat, x),  data))
+
+    out_fh = open('out.txt', 'wt')
+    for i in res:
+        datum = i["date"][0]
+        out_fh.write(f'wedst: {i["name"]} op {datum} state={i["state"]}\n')
+        print(f'wedst: {i["name"]} op {datum} state={i["state"]}')
+
+    out_fh.close()
+
+def filterCat(cat, e):
+    if not 'races' in e:
+        return False
+    return cat in map(lambda y: y['name'], e['races']),
 
 
-    for key, val in credentials.items():
-        print(f'key={key}, val={val}')
-
-    for i in range(3):
-        print(f'i is {i}')
 # --------------------------------------------------
 if __name__ == '__main__':
     main()
