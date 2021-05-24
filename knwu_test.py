@@ -7,6 +7,7 @@ Purpose: Rock the Casbah
 
 import argparse
 import json
+import re
 
 
 # --------------------------------------------------
@@ -82,24 +83,25 @@ def main():
 
     out_fh.close()
 
-    a1 = { 'races': [{ 'name': 'dick', 'age': 47}, { 'name': 'xxx', 'age': 47}]}
-    a2 = { 'races': [{ 'name': 'jens', 'age': 15}, { 'name': 'yyy', 'age': 15}]}
+    # a1 = { 'races': [{ 'name': 'dick', 'age': 47}, { 'name': 'xxx', 'age': 47}]}
+    # a2 = { 'races': [{ 'name': 'jens', 'age': 15}, { 'name': 'yyy', 'age': 15}]}
 
-    a = [a1, a2]
+    # a = [a1, a2]
 
-    print(filterCat('dick', a1))
-    print('-----------')
-    print(filterCat('dick', a2))
+    # print(filterCat('dick', a1))
+    # print('-----------')
+    # print(filterCat('dick', a2))
 
 
 
 def filterCat(cat, e):
     if not 'races' in e:
         return False
-    a = map(lambda y: y['name'], e['races'])
-    print(list(a))
-    return cat in map(lambda y: y['name'], e['races'])
+    for cat_name in map(lambda y: y['name'], e['races']):
+        if re.search(r'Nieuweling.*\(M\)',cat_name):
+            return True 
 
+    return False
 
 # --------------------------------------------------
 if __name__ == '__main__':

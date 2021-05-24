@@ -139,7 +139,7 @@ def main():
     # print(f'per page is {per_page} en total={total_number_races}')
     nieuwelingenRaces = []
     
-    nieuwelingenRaces.extend(filterRaces('Nieuwelingen (M)', events["data"]))
+    nieuwelingenRaces.extend(filterRaces('Nieuweling.*\(M\)', events["data"]))
 
     # first page already retrieved, so start at index '1'
     for i in range(1, math.ceil(total_number_races/per_page)):
@@ -149,31 +149,31 @@ def main():
         print(f'page is {next_page}')
         responseEvents = session.get(f'{url}/api/events?page={next_page}&filter[discipline]=&filter[location]=&filter[type]=&filter[region]=&filter[state]=&filter[gender]=&filter[role]=&include[1]=organisation&include[2]=races.classification', cookies=cookies3, proxies=proxy, headers=headers2)
         events = responseEvents.json()
-        nieuwelingenRaces.extend(filterRaces('Nieuwelingen (M)', events["data"]))
+        nieuwelingenRaces.extend(filterRaces(r'Nieuweling.*\(M\)', events["data"]))
 
     out_fh = open('out.txt', 'wt')
     for i in nieuwelingenRaces:
         datum = i["date"][0]
-        out_fh.write(f'wedst: {i["name"]} op {datum} state={i["state"]}\n')
-        print(f'wedst: {i["name"]} op {datum} state={i["state"]}')
+        out_fh.write(f'{i["name"]} op {datum} \n')
+        print(f'{i["name"]} op {datum} state={i["state"]}')
 
     out_fh.close()
 
 
-def filterRaces(cat, data):
-    # filter out races for Nieuwelingen:
-    return  filter(lambda x: filterCat2(cat, x), data)
+def filterRaces(catRegex, data):
+    # filter out races for Nieuwelingen and that are 'scheduled' (='Definitief'):
+    return  filter(lambda e: e['state'] == 'scheduled', filter(lambda x: filterCategory(catRegex, x), data))
 
-def filterCat2(cat, e):
+def filterCategory(catRegex, e):
     if not 'races' in e:
         print(f'{e["name"]} bevat geen races')
         return False
-    a= map(lambda y: y['name'], e['races'])    
 
-    print('========'+cat)
-    print(list(a))
+    for cat_name in map(lambda y: y['name'], e['races']):
+        if re.search(catRegex,cat_name):
+            return True 
 
-    return cat in map(lambda y: y['name'], e['races'])
+    return False
 
 def findToken(response):
     tokenLine = filter(lambda s: s.find('_token')
