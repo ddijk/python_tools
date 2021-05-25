@@ -145,17 +145,18 @@ def main():
     # print(f'per page is {per_page} en total={total_number_races}')
     nieuwelingenRaces = []
     
-    nieuwelingenRaces.extend(filterRaces('Nieuweling.*\(M\)', events["data"]))
+    nieuwelingenRaces.extend(filterRaces(r'[Nn]ieuweling.*\(M\)', events["data"]))
 
     # first page already retrieved, so start at index '1'
-    for i in range(1, math.ceil(total_number_races/per_page)):
+    num_pages = math.ceil(total_number_races/per_page)
+    for i in range(1, num_pages):
     # for i in range(1, 3):
         # pages start at index 1:
         next_page = i+1
-        print(f'page is {next_page}\r')
+        print(f"page {next_page}", end='\r' if i<num_pages-1 else '\n')
         responseEvents = session.get(f'{url}/api/events?page={next_page}&filter[discipline]=&filter[location]=&filter[type]=&filter[region]=&filter[state]=&filter[gender]=&filter[role]=&include[1]=organisation&include[2]=races.classification', cookies=cookies3, proxies=proxy, headers=headers2)
         events = responseEvents.json()
-        nieuwelingenRaces.extend(filterRaces(r'Nieuweling.*\(M\)', events["data"]))
+        nieuwelingenRaces.extend(filterRaces(r'[Nn]ieuweling.*\(M\)', events["data"]))
 
     out_fh = open('out.txt', 'wt')
     for i in nieuwelingenRaces:
