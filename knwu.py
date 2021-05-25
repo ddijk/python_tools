@@ -80,6 +80,7 @@ def main():
 
     
     proxy = { "https": "https://localhost:1080"} if flag_arg else None
+    verify = False if flag_arg else True
 
     print(f'using proxy {proxy}')
     session = requests.Session()
@@ -92,20 +93,23 @@ def main():
 
     # print(f'cookies van get: {cookies}')
 
-    response1b = session.get(f'{url}/login', proxies=proxy, verify=False)
-    print(f'response on get login {response1b.status_code}')
+    response1b = session.get(f'{url}/login', proxies=proxy, verify=verify)
+    if flag_arg:
+        print(f'response on get login {response1b.status_code}')
     cookies1b = session.cookies.get_dict()
-    print(f'cookies van get login: {cookies1b}')
+    if flag_arg:
+       print(f'cookies van get login: {cookies1b}')
 
     # get token in HTML response
 
     token = findToken(response1b)
 
-    print(f'token is {token}')
+    if flag_arg:
+        print(f'token is {token}')
 
     data = {'username': credentials['username'], 'password': credentials['password'], '_token': token }
     headers = {'Content-Type': 'application/x-www-form-urlencoded', 'Cache-Control': 'no-cache', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15'}
-    response2 = session.post(f'{url}/login', data=data, cookies=cookies1b, headers=headers, proxies=proxy, verify=False, allow_redirects=False)
+    response2 = session.post(f'{url}/login', data=data, cookies=cookies1b, headers=headers, proxies=proxy, verify=verify, allow_redirects=False)
 
 
     cookies2 = session.cookies.get_dict()
@@ -114,17 +118,19 @@ def main():
     # print(f'cookies van post: {cookies2}')
     # print(f'cookies van post: {requests.Response().cookies.get_dict()}')
 
-    response3 = session.get(f'{url}', cookies=cookies2, verify=False, proxies=proxy)
+    response3 = session.get(f'{url}', cookies=cookies2, verify=verify, proxies=proxy)
 
     cookies3 = session.cookies.get_dict()
-    print(f'response on redirect {response3.status_code}')
-    print(f'response on redirect {response3.reason}')
-    print(f'cookies van redirect: {cookies3}')
+    if flag_arg:
+        print(f'response on redirect {response3.status_code}')
+        print(f'response on redirect {response3.reason}')
+        print(f'cookies van redirect: {cookies3}')
 
     headers2 = { 'Accept' : 'application/json'}
     responseEvents = session.get(f'{url}/api/events?page=1&filter[discipline]=&filter[location]=&filter[type]=&filter[region]=&filter[state]=&filter[gender]=&filter[role]=&include[1]=organisation&include[2]=races.classification', cookies=cookies3, proxies=proxy, headers=headers2)
 
-    print(f'events response status {responseEvents.status_code}')
+    if flag_arg:
+        print(f'events response status {responseEvents.status_code}')
 
     # print(f'{responseEvents.json()}')
     events = responseEvents.json()
@@ -146,7 +152,7 @@ def main():
     # for i in range(1, 3):
         # pages start at index 1:
         next_page = i+1
-        print(f'page is {next_page}')
+        print(f'page is {next_page}\r')
         responseEvents = session.get(f'{url}/api/events?page={next_page}&filter[discipline]=&filter[location]=&filter[type]=&filter[region]=&filter[state]=&filter[gender]=&filter[role]=&include[1]=organisation&include[2]=races.classification', cookies=cookies3, proxies=proxy, headers=headers2)
         events = responseEvents.json()
         nieuwelingenRaces.extend(filterRaces(r'Nieuweling.*\(M\)', events["data"]))
