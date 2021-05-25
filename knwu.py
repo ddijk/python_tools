@@ -60,21 +60,23 @@ def main():
     int_arg = args.int
     file_arg = args.file
     flag_arg = args.on
-    # pos_arg = args.positional
 
     credentials=readCredentials(file_arg)
 
-    print('username is missing') if not credentials['username'] else print('username found')
-    print('password is missing') if not credentials['password'] else print('password found')
+    if not credentials['username']:
+        print('username is missing') 
+    if not credentials['password']:
+        print('password is missing') 
 
     if not credentials['username'] or not credentials['password']:
         print('username or password missing')
         return
-    print(f'str_arg = "{str_arg}"')
-    print(f'int_arg = "{int_arg}"')
-    print('file_arg = "{}"'.format(file_arg.name if file_arg else ''))
-    print(f'flag_arg = "{flag_arg}"')
-    # print(f'positional = "{pos_arg}"')
+
+    if flag_arg:
+        print(f'str_arg = "{str_arg}"')
+        print(f'int_arg = "{int_arg}"')
+        print('file_arg = "{}"'.format(file_arg.name if file_arg else ''))
+        print(f'flag_arg = "{flag_arg}"')
 
     url = 'https://mijn.knwu.nl'
 
@@ -84,14 +86,6 @@ def main():
 
     print(f'using proxy {proxy}')
     session = requests.Session()
-    # response = session.get(f'{url}', proxies=proxy, verify=False)
-
-    # print(f'response on first get: {response.status_code}')
-
-    # 'XSRF-TOKEN' and 'mijnknwu_session'
-    # cookies = session.cookies.get_dict()
-
-    # print(f'cookies van get: {cookies}')
 
     response1b = session.get(f'{url}/login', proxies=proxy, verify=verify)
     if flag_arg:
@@ -111,12 +105,10 @@ def main():
     headers = {'Content-Type': 'application/x-www-form-urlencoded', 'Cache-Control': 'no-cache', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15'}
     response2 = session.post(f'{url}/login', data=data, cookies=cookies1b, headers=headers, proxies=proxy, verify=verify, allow_redirects=False)
 
-
     cookies2 = session.cookies.get_dict()
-    # print(f'response on post {response2.status_code}')
-    # print(f'response on post {response2.reason}')
-    # print(f'cookies van post: {cookies2}')
-    # print(f'cookies van post: {requests.Response().cookies.get_dict()}')
+    if response2.status_code != 302:
+        print(f'Login failed: {response2.reason}')
+        return
 
     response3 = session.get(f'{url}', cookies=cookies2, verify=verify, proxies=proxy)
 
@@ -131,21 +123,17 @@ def main():
 
     if flag_arg:
         print(f'events response status {responseEvents.status_code}')
+        print(f'events response message {responseEvents.reason}')
 
-    # print(f'{responseEvents.json()}')
     events = responseEvents.json()
-    # print(f'events response {events.meta}')
-    # j= json.dumps(events["data"])
-    # print(f'events response {j}')
-
-    # print(f'events response {events["meta"]}')
     total_number_races= events["meta"]["total"]
     per_page = events["meta"]["per_page"]
 
-    # print(f'per page is {per_page} en total={total_number_races}')
     nieuwelingenRaces = []
     
     nieuwelingenRaces.extend(filterRaces(r'[Nn]ieuweling.*\(M\)', events["data"]))
+    [print(f'naam={r["name"]}') for r in nieuwelingenRaces]
+    print(f'==============={len(nieuwelingenRaces)}')
 
     # first page already retrieved, so start at index '1'
     num_pages = math.ceil(total_number_races/per_page)
@@ -157,12 +145,14 @@ def main():
         responseEvents = session.get(f'{url}/api/events?page={next_page}&filter[discipline]=&filter[location]=&filter[type]=&filter[region]=&filter[state]=&filter[gender]=&filter[role]=&include[1]=organisation&include[2]=races.classification', cookies=cookies3, proxies=proxy, headers=headers2)
         events = responseEvents.json()
         nieuwelingenRaces.extend(filterRaces(r'[Nn]ieuweling.*\(M\)', events["data"]))
+        [print(f'naam={r["name"]}') for r in nieuwelingenRaces]
+        print(f'==============={len(nieuwelingenRaces)}')
 
     out_fh = open('out.txt', 'wt')
     for i in nieuwelingenRaces:
         datum = i["date"][0]
         out_fh.write(f'{i["name"]} op {datum} \n')
-        print(f'{i["name"]} op {datum} state={i["state"]}')
+        print(f'{i["name"]} op {datum}')
 
     out_fh.close()
 
