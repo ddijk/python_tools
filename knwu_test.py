@@ -8,6 +8,7 @@ Purpose: Rock the Casbah
 import argparse
 import json
 import re
+import time
 
 
 # --------------------------------------------------
@@ -69,6 +70,15 @@ def main():
     print(f'flag_arg = "{flag_arg}"')
     # print(f'positional = "{pos_arg}"')
 
+    # writeRaces(file_arg)
+
+    for i in range(1,10):
+        print(f"page {i}", end='\r' if i<9 else '\n')
+        time.sleep(1)
+
+
+
+def writeRaces(file_arg):
     data = json.load(file_arg)
 
     cat = 'Nieuwelingen (M)' 
@@ -82,16 +92,6 @@ def main():
         print(f'wedst: {i["name"]} op {datum} state={i["state"]}')
 
     out_fh.close()
-
-    # a1 = { 'races': [{ 'name': 'dick', 'age': 47}, { 'name': 'xxx', 'age': 47}]}
-    # a2 = { 'races': [{ 'name': 'jens', 'age': 15}, { 'name': 'yyy', 'age': 15}]}
-
-    # a = [a1, a2]
-
-    # print(filterCat('dick', a1))
-    # print('-----------')
-    # print(filterCat('dick', a2))
-
 
 
 def filterCat(cat, e):
