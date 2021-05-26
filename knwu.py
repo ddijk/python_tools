@@ -132,6 +132,7 @@ def main():
 
     # to filter out duplicates. Het bleek dat sommige races op 2 pagina's terugkwamen
     processed_race_names=[]
+    nieuwelingenRaces.sort(key=lambda r: r['date'])
     for i in nieuwelingenRaces:
         race_name = i["name"]
         if race_name in processed_race_names:
