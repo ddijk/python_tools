@@ -9,7 +9,7 @@ import argparse
 import json
 import re
 import time
-
+from collections import defaultdict
 
 # --------------------------------------------------
 def get_args():
@@ -85,6 +85,7 @@ def writeRaces(file_arg):
     # filter out races for Nieuwelingen:
     res =  list(filter(lambda x: filterCat(cat, x),  data))
 
+    sortOnProps(res, 'date', 'id')
     out_fh = open('out.txt', 'wt')
     for i in res:
         datum = i["date"][0]
@@ -103,6 +104,21 @@ def filterCat(cat, e):
 
     return False
 
+def sortOnProps(coll, primaryProp, secondaryProp):
+
+    groups=defaultdict(list)
+
+    for i in coll:
+        groups[i[primaryProp]].append(i)
+
+    result = []
+    myFunc = lambda x: x[secondaryProp]
+    for k in sorted(groups):
+        coll = groups[k]
+        coll.sort(key=myFunc)
+        result.extend(coll)
+
+    return result
 # --------------------------------------------------
 if __name__ == '__main__':
     main()

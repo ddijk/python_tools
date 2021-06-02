@@ -1,5 +1,6 @@
 from sort import mysort
 from sort import sortOnProp
+from sort import sortOnProps
 
 def test_sort():
      a = ['aap','noo']
@@ -25,3 +26,18 @@ def test_sortDictLambda():
      
 def myFunc(e):
     return e['date']
+    
+# multi level sort
+def test_multi_level():
+     a = [{'id': 1, 'date': 2008}, {'id': 2, 'date': 2008}, {'id': 3, 'date': 2010}, {'id': 4, 'date': 2008}, {'id': 5, 'date': 2005}]
+
+     expected = [{'id': 5, 'date': 2005}, {'id': 1, 'date': 2008}, {'id': 2, 'date': 2008}, {'id': 4, 'date': 2008}, {'id':3, 'date': 2010}]
+
+     assert sortOnProps(a, 'date', 'id') == expected
+
+def test_multi_level_b():
+     a = [{'id': 2, 'date': 2008}, {'id': 1, 'date': 2008}, {'id': 4, 'date': 2008}, {'id': 3, 'date': 2010}, {'id': 5, 'date': 2005}]
+
+     expected = [{'id': 5, 'date': 2005}, {'id': 1, 'date': 2008}, {'id': 2, 'date': 2008}, {'id': 4, 'date': 2008}, {'id':3, 'date': 2010}]
+
+     assert sortOnProps(a, 'date', 'id') == expected

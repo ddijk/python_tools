@@ -11,6 +11,7 @@ from requests.models import Response
 import re
 import math
 import json
+from collections import defaultdict
 # --------------------------------------------------
 def get_args():
     """Get command-line arguments"""
@@ -132,8 +133,11 @@ def main():
 
     # to filter out duplicates. Het bleek dat sommige races op 2 pagina's terugkwamen
     processed_race_names=[]
-    nieuwelingenRaces.sort(key=lambda r: r['date'])
-    for i in nieuwelingenRaces:
+    
+    multi_level_sorted = sortOnProps(nieuwelingenRaces, "date", "id")
+
+
+    for i in multi_level_sorted:
         race_name = i["name"]
         if race_name in processed_race_names:
             print(f'already processed {race_name}')
@@ -180,6 +184,21 @@ def readCredentials(file):
     
     return credentials
 
+def sortOnProps(coll, primaryProp, secondaryProp):
+
+    groups=defaultdict(list)
+
+    for i in coll:
+        groups[i[primaryProp][0]].append(i)
+
+    result = []
+    myFunc = lambda x: x[secondaryProp]
+    for k in sorted(groups):
+        coll = groups[k]
+        coll.sort(key=myFunc)
+        result.extend(coll)
+
+    return result
 
 # --------------------------------------------------
 if __name__ == '__main__':
