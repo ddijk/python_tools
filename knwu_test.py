@@ -81,9 +81,8 @@ def main():
 def writeRaces(file_arg):
     data = json.load(file_arg)
 
-    cat = 'Nieuwelingen (M)' 
     # filter out races for Nieuwelingen:
-    res =  list(filter(lambda x: filterCat(cat, x),  data))
+    res =  list(filter(lambda x: filterCat( x),  data))
 
     sortOnProps(res, 'date', 'id')
     out_fh = open('out.txt', 'wt')
@@ -95,11 +94,12 @@ def writeRaces(file_arg):
     out_fh.close()
 
 
-def filterCat(cat, e):
+def filterCat(e):
     if not 'races' in e:
         return False
     for cat_name in map(lambda y: y['name'], e['races']):
-        if re.search(r'Nieuweling.*\(M\)',cat_name):
+        print(f'catName={cat_name}')
+        if re.search(r'Nieuweling.*\(M',cat_name):
             return True 
 
     return False

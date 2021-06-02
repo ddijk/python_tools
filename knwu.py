@@ -110,7 +110,7 @@ def main():
 
     nieuwelingenRaces = []
     
-    nieuwelingenRaces.extend(filterRaces(r'[Nn]ieuweling.*\(M\)', events["data"]))
+    nieuwelingenRaces.extend(filterRaces(r'[Nn]ieuweling.*\(M', events["data"]))
     if debug_flag:
         [print(f'naam={r["name"]}') for r in nieuwelingenRaces]
         print(f'==============={len(nieuwelingenRaces)}')
@@ -124,7 +124,7 @@ def main():
         print(f"page {next_page}", end='\r' if i<num_pages-1 else '\n')
         responseEvents = session.get(f'{url}/api/events?view=list&page={next_page}&filter[discipline]=&filter[location]=&filter[type]=&filter[region]=&filter[state]=&filter[gender]=&filter[role]=&include[1]=organisation&include[2]=races.classification', cookies=cookies3, proxies=proxy, headers=headers2)
         events = responseEvents.json()
-        nieuwelingenRaces.extend(filterRaces(r'[Nn]ieuweling.*\(M\)', events["data"]))
+        nieuwelingenRaces.extend(filterRaces(r'[Nn]ieuweling.*\(M', events["data"]))
         if debug_flag:
             [print(f'naam={r["name"]} id={r["id"]}') for r in nieuwelingenRaces]
             print(f'==============={len(nieuwelingenRaces)}')
