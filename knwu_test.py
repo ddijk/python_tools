@@ -74,7 +74,7 @@ def main():
 
     for i in range(1,10):
         print(f"page {i}", end='\r' if i<9 else '\n')
-        time.sleep(1)
+        # time.sleep(1)
 
 
 
