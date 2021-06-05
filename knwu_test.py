@@ -19,9 +19,9 @@ def get_args():
         description='Rock the Casbah',
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
-    # parser.add_argument('positional',
-    #                     metavar='str',
-    #                     help='A positional argument')
+    parser.add_argument('positional',
+                        metavar='str',
+                        help='A positional argument')
 
     parser.add_argument('-a',
                         '--arg',
@@ -62,7 +62,7 @@ def main():
     int_arg = args.int
     file_arg = args.file
     flag_arg = args.on
-    # pos_arg = args.positional
+    pos_arg = args.positional
 
     print(f'str_arg = "{str_arg}"')
     print(f'int_arg = "{int_arg}"')
@@ -72,8 +72,12 @@ def main():
 
     # writeRaces(file_arg)
 
-    for i in range(1,10):
-        print(f"page {i}", end='\r' if i<9 else '\n')
+    regex = r'[Nn]ieuweling.*\(M'
+
+    print(re.search(regex, pos_arg))
+
+    # for i in range(1,10):
+    #     print(f"page {i}", end='\r' if i<9 else '\n')
         # time.sleep(1)
 
 
