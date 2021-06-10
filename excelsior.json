@@ -1,0 +1,3144 @@
+{
+  "data": [
+    {
+      "id": 3652,
+      "name": "Trainingsomloop Flevoland #1",
+      "state": "scheduled",
+      "date": [
+        "2021-06-19"
+      ],
+      "organisation": {
+        "id": 156,
+        "name": "Stichting Wielerevenementen de IJsselstreek",
+        "description": "",
+        "slug": "st-wielereven-de-ijsselstreek",
+        "seated_at_city": "Oldebroek",
+        "seated_at_county_province": "Gelderland",
+        "founded_at": "2006-01-03",
+        "website": "www.wvdeijsselstreek.nl",
+        "email": "ijsselstreeksecretariaat@outlook.com",
+        "twitter": null,
+        "instagram": null,
+        "facebook": null,
+        "state": "approved",
+        "logo": ""
+      },
+      "addresses": [
+        {
+          "id": 123666,
+          "description": "Zwaan Buitensport",
+          "street": "Knooplaan",
+          "suffix": null,
+          "house_number": 1,
+          "postal_code": "8251 SJ",
+          "city": "Dronten",
+          "country": {
+            "key": "NED",
+            "label": "Nederland"
+          },
+          "geolocation": {
+            "lat": 52.496377,
+            "lng": 5.627506
+          }
+        }
+      ],
+      "races": [
+        {
+          "id": 56679,
+          "name": "Junioren (M)",
+          "date": "2021-06-19T08:00:00.000000Z",
+          "time": "10:00",
+          "state": "scheduled",
+          "marked": false,
+          "duration": 0,
+          "length": 100000,
+          "laps": 20,
+          "registration_limit": 100,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 10,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": true,
+          "classification": {
+            "id": 103,
+            "key": "Nationale wedstrijd",
+            "name": "Nationale wedstrijd",
+            "code": "National",
+            "needs_validation": 0
+          },
+          "results": []
+        }
+      ],
+      "regions": [
+        {
+          "id": 2,
+          "name": "Midden",
+          "type": "district"
+        }
+      ],
+      "reports": [],
+      "can": {
+        "activity": false
+      }
+    },
+    {
+      "id": 3539,
+      "name": "Trainingsritten Jeugd District Midden",
+      "state": "scheduled",
+      "date": [
+        "2021-06-19"
+      ],
+      "organisation": {
+        "id": 81,
+        "name": "District Midden",
+        "description": "",
+        "slug": "district-midden",
+        "seated_at_city": "Loenen aan de Vecht",
+        "seated_at_county_province": "Utrecht",
+        "founded_at": "2001-01-01",
+        "website": "knwumidden.nl",
+        "email": null,
+        "twitter": null,
+        "instagram": null,
+        "facebook": null,
+        "state": null,
+        "logo": ""
+      },
+      "addresses": [
+        {
+          "id": 122995,
+          "description": "Clubhuis AXA Valleirenners",
+          "street": "Waardgelder",
+          "suffix": null,
+          "house_number": 3,
+          "postal_code": "3905TH",
+          "city": "Veenendaal",
+          "country": {
+            "key": "NED",
+            "label": "Nederland"
+          },
+          "geolocation": {
+            "lat": 52.041016,
+            "lng": 5.53899
+          }
+        }
+      ],
+      "races": [
+        {
+          "id": 55985,
+          "name": "Jeugd",
+          "date": "2021-06-19T08:00:00.000000Z",
+          "time": "10:00",
+          "state": "scheduled",
+          "marked": false,
+          "duration": 0,
+          "length": 0,
+          "laps": 0,
+          "registration_limit": 100,
+          "approved_participants_count": null,
+          "registration_invite": true,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 15,
+            "key": "Class 4",
+            "name": "Regiowedstrijd (interclub)",
+            "code": "1.4",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 55986,
+          "name": "Jeugd",
+          "date": "2021-06-19T09:00:00.000000Z",
+          "time": "11:00",
+          "state": "scheduled",
+          "marked": false,
+          "duration": 0,
+          "length": 0,
+          "laps": 0,
+          "registration_limit": 100,
+          "approved_participants_count": null,
+          "registration_invite": true,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 15,
+            "key": "Class 4",
+            "name": "Regiowedstrijd (interclub)",
+            "code": "1.4",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 55988,
+          "name": "Jeugd",
+          "date": "2021-06-19T10:00:00.000000Z",
+          "time": "12:00",
+          "state": "scheduled",
+          "marked": false,
+          "duration": 0,
+          "length": 0,
+          "laps": 0,
+          "registration_limit": 100,
+          "approved_participants_count": null,
+          "registration_invite": true,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 15,
+            "key": "Class 4",
+            "name": "Regiowedstrijd (interclub)",
+            "code": "1.4",
+            "needs_validation": 0
+          },
+          "results": []
+        }
+      ],
+      "regions": [
+        {
+          "id": 2,
+          "name": "Midden",
+          "type": "district"
+        }
+      ],
+      "reports": [],
+      "can": {
+        "activity": false
+      }
+    },
+    {
+      "id": 3157,
+      "name": "5e jeugdronde De Roo\u00ebibes",
+      "state": "canceled",
+      "date": [
+        "2021-06-19"
+      ],
+      "organisation": {
+        "id": 418,
+        "name": "Cycling Team Limburg",
+        "description": "",
+        "slug": "cycling-team-limburg",
+        "seated_at_city": "Peel en Maas",
+        "seated_at_county_province": "Limburg",
+        "founded_at": "2011-11-30",
+        "website": "cycling-team-limburg.nl\/",
+        "email": "info@cycling-team-limburg.nl",
+        "twitter": null,
+        "instagram": null,
+        "facebook": null,
+        "state": "approved",
+        "logo": ""
+      },
+      "addresses": [
+        {
+          "id": 120892,
+          "description": "Nabij camping De Roo\u00ebibes",
+          "street": "Brumholt",
+          "suffix": null,
+          "house_number": 15,
+          "postal_code": "6086 PV",
+          "city": "Neer",
+          "country": {
+            "key": "NED",
+            "label": "Nederland"
+          },
+          "geolocation": {
+            "lat": 51.271246,
+            "lng": 5.962754
+          }
+        }
+      ],
+      "races": [
+        {
+          "id": 53723,
+          "name": "Jeugd - Categorie 1 (M\/V)",
+          "date": "2021-06-19T08:00:00.000000Z",
+          "time": "10:00",
+          "state": "canceled",
+          "marked": false,
+          "duration": 0,
+          "length": 6000,
+          "laps": 5,
+          "registration_limit": 35,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 103,
+            "key": "Nationale wedstrijd",
+            "name": "Nationale wedstrijd",
+            "code": "National",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 53724,
+          "name": "Jeugd - Categorie 2 (M\/V)",
+          "date": "2021-06-19T08:20:00.000000Z",
+          "time": "10:20",
+          "state": "canceled",
+          "marked": false,
+          "duration": 0,
+          "length": 8400,
+          "laps": 7,
+          "registration_limit": 35,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 103,
+            "key": "Nationale wedstrijd",
+            "name": "Nationale wedstrijd",
+            "code": "National",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 53725,
+          "name": "Jeugd - Categorie 3 (M\/V)",
+          "date": "2021-06-19T08:45:00.000000Z",
+          "time": "10:45",
+          "state": "canceled",
+          "marked": false,
+          "duration": 0,
+          "length": 12,
+          "laps": 10,
+          "registration_limit": 45,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 103,
+            "key": "Nationale wedstrijd",
+            "name": "Nationale wedstrijd",
+            "code": "National",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 53726,
+          "name": "Jeugd - Categorie 4 (M\/V)",
+          "date": "2021-06-19T09:30:00.000000Z",
+          "time": "11:30",
+          "state": "canceled",
+          "marked": false,
+          "duration": 0,
+          "length": 15600,
+          "laps": 13,
+          "registration_limit": 50,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 103,
+            "key": "Nationale wedstrijd",
+            "name": "Nationale wedstrijd",
+            "code": "National",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 53727,
+          "name": "Jeugd - Categorie 5 (M\/V)",
+          "date": "2021-06-19T10:30:00.000000Z",
+          "time": "12:30",
+          "state": "canceled",
+          "marked": false,
+          "duration": 0,
+          "length": 20400,
+          "laps": 17,
+          "registration_limit": 55,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 103,
+            "key": "Nationale wedstrijd",
+            "name": "Nationale wedstrijd",
+            "code": "National",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 53728,
+          "name": "Jeugd - Categorie 6 (M\/V)",
+          "date": "2021-06-19T11:30:00.000000Z",
+          "time": "13:30",
+          "state": "canceled",
+          "marked": false,
+          "duration": 0,
+          "length": 25200,
+          "laps": 21,
+          "registration_limit": 65,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 103,
+            "key": "Nationale wedstrijd",
+            "name": "Nationale wedstrijd",
+            "code": "National",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 53729,
+          "name": "Jeugd - Categorie 7 (M)",
+          "date": "2021-06-19T12:30:00.000000Z",
+          "time": "14:30",
+          "state": "canceled",
+          "marked": false,
+          "duration": 0,
+          "length": 30000,
+          "laps": 25,
+          "registration_limit": 75,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 103,
+            "key": "Nationale wedstrijd",
+            "name": "Nationale wedstrijd",
+            "code": "National",
+            "needs_validation": 0
+          },
+          "results": []
+        }
+      ],
+      "regions": [
+        {
+          "id": 1,
+          "name": "Limburg",
+          "type": "district"
+        }
+      ],
+      "reports": [],
+      "can": {
+        "activity": false
+      }
+    },
+    {
+      "id": 3084,
+      "name": "Klimomnium 2021",
+      "state": "canceled",
+      "date": [
+        "2021-06-19"
+      ],
+      "organisation": {
+        "id": 212,
+        "name": "DRC de Mol",
+        "description": "DRC De Mol: D\u00e9 wielerclub van Zuid-Holland",
+        "slug": "drc-de-mol",
+        "seated_at_city": "Dordrecht",
+        "seated_at_county_province": "Zuid-Holland",
+        "founded_at": "1933-07-03",
+        "website": "www.drcdemol.nl",
+        "email": "info@drcdemol.nl",
+        "twitter": "\/drcdemol",
+        "instagram": "\/drcdemol",
+        "facebook": "\/drcdemol",
+        "state": "approved",
+        "logo": "https:\/\/mijn.knwu.nl\/organisations\/drc-de-mol\/logo"
+      },
+      "addresses": [
+        {
+          "id": 120782,
+          "description": "DRC de Mol",
+          "street": "Vogelaarsweg",
+          "suffix": null,
+          "house_number": 6,
+          "postal_code": "3313 LL",
+          "city": "Dordrecht",
+          "country": {
+            "key": "NED",
+            "label": "Nederland"
+          },
+          "geolocation": {
+            "lat": 51.816708,
+            "lng": 4.747902
+          }
+        }
+      ],
+      "races": [
+        {
+          "id": 53281,
+          "name": "Jeugd Omnium Cat1. (M\/V)",
+          "date": "2021-06-19T08:00:00.000000Z",
+          "time": "10:00",
+          "state": "canceled",
+          "marked": false,
+          "duration": 0,
+          "length": 6000,
+          "laps": 0,
+          "registration_limit": 35,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 103,
+            "key": "Nationale wedstrijd",
+            "name": "Nationale wedstrijd",
+            "code": "National",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 53282,
+          "name": "Jeugd Omnium Cat 2 (M\/V)",
+          "date": "2021-06-19T08:00:00.000000Z",
+          "time": "10:00",
+          "state": "canceled",
+          "marked": false,
+          "duration": 0,
+          "length": 8000,
+          "laps": 0,
+          "registration_limit": 35,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 103,
+            "key": "Nationale wedstrijd",
+            "name": "Nationale wedstrijd",
+            "code": "National",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 53283,
+          "name": "Jeugd Omnium Cat 3 (M\/V)",
+          "date": "2021-06-19T08:00:00.000000Z",
+          "time": "10:00",
+          "state": "canceled",
+          "marked": false,
+          "duration": 0,
+          "length": 12000,
+          "laps": 0,
+          "registration_limit": 45,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 103,
+            "key": "Nationale wedstrijd",
+            "name": "Nationale wedstrijd",
+            "code": "National",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 53284,
+          "name": "Jeugd Omnium Cat. 4 (M\/V)",
+          "date": "2021-06-19T08:00:00.000000Z",
+          "time": "10:00",
+          "state": "canceled",
+          "marked": false,
+          "duration": 0,
+          "length": 15000,
+          "laps": 0,
+          "registration_limit": 50,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 103,
+            "key": "Nationale wedstrijd",
+            "name": "Nationale wedstrijd",
+            "code": "National",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 53285,
+          "name": "Jeugd Omnium Cat. 5 (M\/V)",
+          "date": "2021-06-19T12:00:00.000000Z",
+          "time": "14:00",
+          "state": "canceled",
+          "marked": false,
+          "duration": 0,
+          "length": 20000,
+          "laps": 0,
+          "registration_limit": 55,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 103,
+            "key": "Nationale wedstrijd",
+            "name": "Nationale wedstrijd",
+            "code": "National",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 53286,
+          "name": "Jeugd Omnium Cat. 6 (M\/V)",
+          "date": "2021-06-19T12:00:00.000000Z",
+          "time": "14:00",
+          "state": "canceled",
+          "marked": false,
+          "duration": 0,
+          "length": 25000,
+          "laps": 0,
+          "registration_limit": 65,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 103,
+            "key": "Nationale wedstrijd",
+            "name": "Nationale wedstrijd",
+            "code": "National",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 53287,
+          "name": "Jeugd Omnium Cat. 7 (M)",
+          "date": "2021-06-19T12:00:00.000000Z",
+          "time": "14:00",
+          "state": "canceled",
+          "marked": false,
+          "duration": 0,
+          "length": 30000,
+          "laps": 0,
+          "registration_limit": 75,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 103,
+            "key": "Nationale wedstrijd",
+            "name": "Nationale wedstrijd",
+            "code": "National",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 53289,
+          "name": "Para-cycling - Nationaal - Criterium - ID Cycling",
+          "date": "2021-06-19T10:45:00.000000Z",
+          "time": "12:45",
+          "state": "canceled",
+          "marked": false,
+          "duration": 0,
+          "length": 25000,
+          "laps": 0,
+          "registration_limit": 75,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 100,
+            "key": "Nationale wedstrijd",
+            "name": "Nationale wedstrijd",
+            "code": "National",
+            "needs_validation": 0
+          },
+          "results": []
+        }
+      ],
+      "regions": [
+        {
+          "id": 6,
+          "name": "Zuid Holland",
+          "type": "district"
+        }
+      ],
+      "reports": [],
+      "can": {
+        "activity": false
+      }
+    },
+    {
+      "id": 3594,
+      "name": "Trainingsritten Jeugd district Zuid-West #4",
+      "state": "scheduled",
+      "date": [
+        "2021-06-19"
+      ],
+      "organisation": {
+        "id": 388,
+        "name": "RSC de Zuidwesthoek",
+        "description": "RSC de Zuidwesthoek is opgericht in 1946. Enkele renners die zijn voortgekomen uit deze club zijn o.a. Mathieu van der Poel, Thalita de Jong, Sjoerd van Ginneken en Moreno Hofland.\n\nAanbod\nBij RSC de Zuidwesthoek kun je terecht voor wegwielrennen, veldrijden en mountainbiken. De club is een oude, gezonde en familiaire club waar niet alleen presteren, maar ook genieten voorop staat. Het motto van de club is: 'plezier, leren, presteren', en wel in deze volgorde.\n\nParcours\nOp het parcours te Ossendrecht kun je terecht voor alle diciplines die zij voeren; een parel op de Brabantse Wal.",
+        "slug": "rsc-de-zuidwesthoek",
+        "seated_at_city": "Bergen op Zoom",
+        "seated_at_county_province": "Noord-Brabant",
+        "founded_at": "1946-10-20",
+        "website": "www.rscdezuidwesthoek.nl",
+        "email": "jostjansen1955@kpnmail.nl",
+        "twitter": "\/rsczuidwesthoek",
+        "instagram": null,
+        "facebook": "\/RSCdeZuidwesthoek",
+        "state": "approved",
+        "logo": "https:\/\/mijn.knwu.nl\/organisations\/rsc-de-zuidwesthoek\/logo"
+      },
+      "addresses": [
+        {
+          "id": 123319,
+          "description": "Wielerexpierience Roosendaal",
+          "street": "Buienstraat",
+          "suffix": null,
+          "house_number": 14,
+          "postal_code": "4705 RD",
+          "city": "Roosendaal NB",
+          "country": {
+            "key": "NED",
+            "label": "Nederland"
+          },
+          "geolocation": {
+            "lat": 51.550433,
+            "lng": 4.478523
+          }
+        }
+      ],
+      "races": [
+        {
+          "id": 56293,
+          "name": "Jeugd - Categorie 1 (M\/V)",
+          "date": "2021-06-19T09:00:00.000000Z",
+          "time": "11:00",
+          "state": "scheduled",
+          "marked": false,
+          "duration": 0,
+          "length": 6000,
+          "laps": 0,
+          "registration_limit": 35,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 15,
+            "key": "Class 4",
+            "name": "Regiowedstrijd (interclub)",
+            "code": "1.4",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 56294,
+          "name": "Jeugd - Categorie 2 (M\/V)",
+          "date": "2021-06-19T09:00:00.000000Z",
+          "time": "11:00",
+          "state": "scheduled",
+          "marked": false,
+          "duration": 0,
+          "length": 8000,
+          "laps": 0,
+          "registration_limit": 35,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 15,
+            "key": "Class 4",
+            "name": "Regiowedstrijd (interclub)",
+            "code": "1.4",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 56295,
+          "name": "Jeugd - Categorie 3 (M\/V)",
+          "date": "2021-06-19T09:30:00.000000Z",
+          "time": "11:30",
+          "state": "scheduled",
+          "marked": false,
+          "duration": 0,
+          "length": 12000,
+          "laps": 0,
+          "registration_limit": 45,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 15,
+            "key": "Class 4",
+            "name": "Regiowedstrijd (interclub)",
+            "code": "1.4",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 56296,
+          "name": "Jeugd - Categorie 4 (M\/V)",
+          "date": "2021-06-19T09:30:00.000000Z",
+          "time": "11:30",
+          "state": "scheduled",
+          "marked": false,
+          "duration": 0,
+          "length": 15000,
+          "laps": 0,
+          "registration_limit": 50,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 15,
+            "key": "Class 4",
+            "name": "Regiowedstrijd (interclub)",
+            "code": "1.4",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 56298,
+          "name": "Jeugd - Categorie 5 (M\/V)",
+          "date": "2021-06-19T10:30:00.000000Z",
+          "time": "12:30",
+          "state": "scheduled",
+          "marked": false,
+          "duration": 0,
+          "length": 20000,
+          "laps": 0,
+          "registration_limit": 55,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 15,
+            "key": "Class 4",
+            "name": "Regiowedstrijd (interclub)",
+            "code": "1.4",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 56299,
+          "name": "Jeugd - Categorie 6 (M\/V)",
+          "date": "2021-06-19T11:30:00.000000Z",
+          "time": "13:30",
+          "state": "scheduled",
+          "marked": false,
+          "duration": 0,
+          "length": 25000,
+          "laps": 0,
+          "registration_limit": 65,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 15,
+            "key": "Class 4",
+            "name": "Regiowedstrijd (interclub)",
+            "code": "1.4",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 56300,
+          "name": "Jeugd - Categorie 7 (M)",
+          "date": "2021-06-19T12:30:00.000000Z",
+          "time": "14:30",
+          "state": "scheduled",
+          "marked": false,
+          "duration": 0,
+          "length": 30000,
+          "laps": 0,
+          "registration_limit": 75,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 15,
+            "key": "Class 4",
+            "name": "Regiowedstrijd (interclub)",
+            "code": "1.4",
+            "needs_validation": 0
+          },
+          "results": []
+        }
+      ],
+      "regions": [
+        {
+          "id": 8,
+          "name": "Zuid-West",
+          "type": "district"
+        }
+      ],
+      "reports": [
+        {
+          "id": 96,
+          "state": "draft",
+          "can": {
+            "submit": false
+          }
+        }
+      ],
+      "can": {
+        "activity": false
+      }
+    },
+    {
+      "id": 3099,
+      "name": "Watersley UCI XCO Mountainbike C1",
+      "state": "scheduled",
+      "date": [
+        "2021-06-19"
+      ],
+      "organisation": {
+        "id": 506,
+        "name": "Stichting Watersley Topsports",
+        "description": "",
+        "slug": "st-watersley-topsports",
+        "seated_at_city": "Sittard-Geleen",
+        "seated_at_county_province": "Limburg",
+        "founded_at": "2016-07-28",
+        "website": "https:\/\/watersley-topsports.com",
+        "email": "info@watersley.com",
+        "twitter": null,
+        "instagram": null,
+        "facebook": null,
+        "state": "approved",
+        "logo": ""
+      },
+      "addresses": [
+        {
+          "id": 120805,
+          "description": "Watersley Sports & Talentpark",
+          "street": "Watersley",
+          "suffix": null,
+          "house_number": 31,
+          "postal_code": "6132KA",
+          "city": "Sittard",
+          "country": {
+            "key": "NED",
+            "label": "Nederland"
+          },
+          "geolocation": {
+            "lat": 50.980355,
+            "lng": 5.882562
+          }
+        }
+      ],
+      "races": [
+        {
+          "id": 53323,
+          "name": "Junioren (M)",
+          "date": "2021-06-19T11:45:00.000000Z",
+          "time": "13:45",
+          "state": "scheduled",
+          "marked": false,
+          "duration": 70,
+          "length": 0,
+          "laps": 0,
+          "registration_limit": 999,
+          "approved_participants_count": null,
+          "registration_invite": true,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 125,
+            "key": "Internationale wedstrijd",
+            "name": "Internationale wedstrijd",
+            "code": "C",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 53324,
+          "name": "Junioren (V)",
+          "date": "2021-06-19T09:47:00.000000Z",
+          "time": "11:47",
+          "state": "scheduled",
+          "marked": false,
+          "duration": 65,
+          "length": 0,
+          "laps": 0,
+          "registration_limit": 999,
+          "approved_participants_count": null,
+          "registration_invite": true,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 125,
+            "key": "Internationale wedstrijd",
+            "name": "Internationale wedstrijd",
+            "code": "C",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 53326,
+          "name": "Belofte, Elite, Professional-A, Professional-B (M)",
+          "date": "2021-06-19T08:00:00.000000Z",
+          "time": "10:00",
+          "state": "scheduled",
+          "marked": false,
+          "duration": 90,
+          "length": 0,
+          "laps": 0,
+          "registration_limit": 999,
+          "approved_participants_count": null,
+          "registration_invite": true,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 125,
+            "key": "Internationale wedstrijd",
+            "name": "Internationale wedstrijd",
+            "code": "C",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 53327,
+          "name": "Amateurs, Belofte, Elite, Sportklasse (V)",
+          "date": "2021-06-19T09:45:00.000000Z",
+          "time": "11:45",
+          "state": "scheduled",
+          "marked": false,
+          "duration": 90,
+          "length": 0,
+          "laps": 0,
+          "registration_limit": 999,
+          "approved_participants_count": null,
+          "registration_invite": true,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 125,
+            "key": "Internationale wedstrijd",
+            "name": "Internationale wedstrijd",
+            "code": "C",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 56201,
+          "name": "5-6 jarigen",
+          "date": "2021-06-19T10:45:00.000000Z",
+          "time": "12:45",
+          "state": "scheduled",
+          "marked": false,
+          "duration": 10,
+          "length": 0,
+          "laps": 0,
+          "registration_limit": 50,
+          "approved_participants_count": null,
+          "registration_invite": true,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 101,
+            "key": "Class 4",
+            "name": "Regiowedstrijd (interclub)",
+            "code": "1.4",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 56202,
+          "name": "7-8 jarigen",
+          "date": "2021-06-19T11:00:00.000000Z",
+          "time": "13:00",
+          "state": "scheduled",
+          "marked": false,
+          "duration": 15,
+          "length": 0,
+          "laps": 0,
+          "registration_limit": 50,
+          "approved_participants_count": null,
+          "registration_invite": true,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 101,
+            "key": "Class 4",
+            "name": "Regiowedstrijd (interclub)",
+            "code": "1.4",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 56203,
+          "name": "9-10 jarigen",
+          "date": "2021-06-19T11:20:00.000000Z",
+          "time": "13:20",
+          "state": "scheduled",
+          "marked": false,
+          "duration": 15,
+          "length": 0,
+          "laps": 0,
+          "registration_limit": 50,
+          "approved_participants_count": null,
+          "registration_invite": true,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 101,
+            "key": "Class 4",
+            "name": "Regiowedstrijd (interclub)",
+            "code": "1.4",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 56204,
+          "name": "11-12 jarigen",
+          "date": "2021-06-19T11:40:00.000000Z",
+          "time": "13:40",
+          "state": "scheduled",
+          "marked": false,
+          "duration": 20,
+          "length": 0,
+          "laps": 0,
+          "registration_limit": 50,
+          "approved_participants_count": null,
+          "registration_invite": true,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 101,
+            "key": "Class 4",
+            "name": "Regiowedstrijd (interclub)",
+            "code": "1.4",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 56617,
+          "name": "Nieuwelingen (V)",
+          "date": "2021-06-19T13:30:00.000000Z",
+          "time": "15:30",
+          "state": "scheduled",
+          "marked": false,
+          "duration": 0,
+          "length": 0,
+          "laps": 0,
+          "registration_limit": 999,
+          "approved_participants_count": null,
+          "registration_invite": true,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 125,
+            "key": "Internationale wedstrijd",
+            "name": "Internationale wedstrijd",
+            "code": "C",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 56618,
+          "name": "Nieuwelingen (M)",
+          "date": "2021-06-19T14:30:00.000000Z",
+          "time": "16:30",
+          "state": "scheduled",
+          "marked": false,
+          "duration": 0,
+          "length": 0,
+          "laps": 0,
+          "registration_limit": 999,
+          "approved_participants_count": null,
+          "registration_invite": true,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 125,
+            "key": "Internationale wedstrijd",
+            "name": "Internationale wedstrijd",
+            "code": "C",
+            "needs_validation": 0
+          },
+          "results": []
+        }
+      ],
+      "regions": [
+        {
+          "id": 1,
+          "name": "Limburg",
+          "type": "district"
+        }
+      ],
+      "reports": [],
+      "can": {
+        "activity": false
+      }
+    },
+    {
+      "id": 3678,
+      "name": "Excelsior Gouda zaterdagmiddag training wedstrijden",
+      "state": "scheduled",
+      "date": [
+        "2021-06-19"
+      ],
+      "organisation": {
+        "id": 107,
+        "name": "GRTC Excelsior",
+        "description": "De Goudse Ren- en Tourclub Excelsior (GRTC Excelsior) is opgericht op 30 september 1932. Het motto van Excelsior is: \"Al meer dan 80 jaar een club voor elk wat wils\". De club heeft ruim 400 leden, waaronder een kleine 70 jeugdleden, en dat willen ze graag zo houden. Excelsior vindt een sociaal veilige sportomgeving belangrijk en daarom hebben zij een beleid opgesteld en een vertrouwenscontactpersonen (VCP) aangesteld.\n\nAanbod\nExcelsior is een club voor elk wat wils, dus actief in de verschillende disciplines binnen de wielersport. De vereniging organiseert het hele jaar door wedstrijden; vanaf maart tot en met september zijn er op het clubparcours aan de Goudse Houtsingel (vrijwel) elke zondagochtend en woensdagavond wedstrijden voor alle categorie\u00ebn. Aan de zondagochtendwedstrijden zijn klassementen verbonden. In de wintermaanden zijn er elke zondagochtend veldritten. Naast deze wedstrijden worden ook clubkampioenschappen (weg, veld, tijdrijden) en de Ronde van Gouda georganiseerd.\n\nVoor fietsers die liever recreatief bezig zijn is er de toerafdeling. Wekelijks trekken zij erop uit voor toertochten vari\u00ebrend van 60 tot wel 200 kilometer. Ook is er een basisgroep voor toerders die elke woensdagavond en zondagmorgen tussen de 50 en 55 kilometer onder begeleiding van een geroutineerde renner van Excelsior een tocht willen maken. Daarnaast worden er buitenlandse ritten georganiseerd, zoals bijvoorbeeld Gouda-Solingen-Gouda.\n\nVoor de gezelligheid zit je bij Excelsior ook goed. Er worden in het eigen clubhuis diverse activiteiten georganiseerd.\n\nParcours\nGRTC Excelsior heeft sinds 2001 een prachtig clubgebouw met een eigen wielerparcours voor (wedstrijd)renners en jeugd aan de Goudse Houtsingel (Kale Jonkerpad 3) in Gouda. Naast de baan aan de Goudse Houtsingel is er nog een stukje crossterrein voor de jeugd.\n\nDaarnaast is de openbare weg de \u2018baan\u2019 voor de toerders. De veldrijders gebruiken in de winter de groenstrook \u2018De Groene Wal\u2019 bij de Goudse Poort.",
+        "slug": "grtc-excelsior",
+        "seated_at_city": "Gouda",
+        "seated_at_county_province": "Zuid-Holland",
+        "founded_at": "1932-09-30",
+        "website": "www.grtc-excelsior.nl",
+        "email": null,
+        "twitter": "\/grtcexcelsior",
+        "instagram": null,
+        "facebook": "\/Goudse-Ren-en-Tour-Club-Excelsior-202648489871530",
+        "state": "approved",
+        "logo": ""
+      },
+      "addresses": [
+        {
+          "id": 123775,
+          "description": "GRTC-Excelsior",
+          "street": "Kale Jonkerpad",
+          "suffix": null,
+          "house_number": 3,
+          "postal_code": "2805 LD",
+          "city": "Gouda",
+          "country": {
+            "key": "NED",
+            "label": "Nederland"
+          },
+          "geolocation": {
+            "lat": 52.022704,
+            "lng": 4.72856
+          }
+        }
+      ],
+      "races": [
+        {
+          "id": 56837,
+          "name": "Jeugd Cat7",
+          "date": "2021-06-19T12:05:00.000000Z",
+          "time": "14:05",
+          "state": "scheduled",
+          "marked": false,
+          "duration": 40,
+          "length": 0,
+          "laps": 0,
+          "registration_limit": 999,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 3,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 15,
+            "key": "Class 4",
+            "name": "Regiowedstrijd (interclub)",
+            "code": "1.4",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 56838,
+          "name": "Nieuwelingen (M)",
+          "date": "2021-06-19T12:00:00.000000Z",
+          "time": "14:00",
+          "state": "scheduled",
+          "marked": false,
+          "duration": 0,
+          "length": 50000,
+          "laps": 0,
+          "registration_limit": 999,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 3,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 15,
+            "key": "Class 4",
+            "name": "Regiowedstrijd (interclub)",
+            "code": "1.4",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 56839,
+          "name": "Nieuwelingen (V)",
+          "date": "2021-06-19T12:02:00.000000Z",
+          "time": "14:02",
+          "state": "scheduled",
+          "marked": false,
+          "duration": 0,
+          "length": 40000,
+          "laps": 0,
+          "registration_limit": 999,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 3,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 15,
+            "key": "Class 4",
+            "name": "Regiowedstrijd (interclub)",
+            "code": "1.4",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 56840,
+          "name": "Junioren (V)",
+          "date": "2021-06-19T12:02:00.000000Z",
+          "time": "14:02",
+          "state": "scheduled",
+          "marked": false,
+          "duration": 0,
+          "length": 50000,
+          "laps": 0,
+          "registration_limit": 999,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 3,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 15,
+            "key": "Class 4",
+            "name": "Regiowedstrijd (interclub)",
+            "code": "1.4",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 56841,
+          "name": "Junioren (M)",
+          "date": "2021-06-19T12:00:00.000000Z",
+          "time": "14:00",
+          "state": "scheduled",
+          "marked": false,
+          "duration": 0,
+          "length": 60000,
+          "laps": 0,
+          "registration_limit": 999,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 3,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 15,
+            "key": "Class 4",
+            "name": "Regiowedstrijd (interclub)",
+            "code": "1.4",
+            "needs_validation": 0
+          },
+          "results": []
+        }
+      ],
+      "regions": [
+        {
+          "id": 6,
+          "name": "Zuid Holland",
+          "type": "district"
+        }
+      ],
+      "reports": [],
+      "can": {
+        "activity": false
+      }
+    },
+    {
+      "id": 2876,
+      "name": "Ronde van Bruinisse",
+      "state": "canceled",
+      "date": [
+        "2021-06-19"
+      ],
+      "organisation": {
+        "id": 323,
+        "name": "ZRTC Theo Middelkamp",
+        "description": "",
+        "slug": "zrtc-theo-middelkamp",
+        "seated_at_city": "Goes",
+        "seated_at_county_province": "Zeeland",
+        "founded_at": "1954-09-08",
+        "website": "www.theomiddelkamp.nl",
+        "email": null,
+        "twitter": "\/theomiddelkamp",
+        "instagram": null,
+        "facebook": "\/zrtc1953",
+        "state": "approved",
+        "logo": ""
+      },
+      "addresses": [
+        {
+          "id": 119929,
+          "description": "Restaurant Storm",
+          "street": "Nieuwstraat",
+          "suffix": null,
+          "house_number": 26,
+          "postal_code": "4311AN",
+          "city": "Bruinisse",
+          "country": {
+            "key": "NED",
+            "label": "Nederland"
+          },
+          "geolocation": {
+            "lat": 51.66035,
+            "lng": 4.093913
+          }
+        },
+        {
+          "id": 119930,
+          "description": "VV Bruse Boys",
+          "street": "Nijverheidsweg",
+          "suffix": null,
+          "house_number": 25,
+          "postal_code": "4311RT",
+          "city": "Bruinisse",
+          "country": {
+            "key": "NED",
+            "label": "Nederland"
+          },
+          "geolocation": {
+            "lat": 51.654342,
+            "lng": 4.095699
+          }
+        }
+      ],
+      "races": [
+        {
+          "id": 52419,
+          "name": "Amateurs, Belofte, Elite, Professional-B (M)",
+          "date": "2021-06-19T13:00:00.000000Z",
+          "time": "15:00",
+          "state": "canceled",
+          "marked": false,
+          "duration": 0,
+          "length": 80000,
+          "laps": 0,
+          "registration_limit": 100,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 103,
+            "key": "Nationale wedstrijd",
+            "name": "Nationale wedstrijd",
+            "code": "National",
+            "needs_validation": 0
+          },
+          "results": []
+        }
+      ],
+      "regions": [
+        {
+          "id": 8,
+          "name": "Zuid-West",
+          "type": "district"
+        }
+      ],
+      "reports": [],
+      "can": {
+        "activity": false
+      }
+    },
+    {
+      "id": 3439,
+      "name": "NK Wegwielrennen Beloften\/UCI-Vrouwen\/Profs",
+      "state": "scheduled",
+      "date": [
+        "2021-06-19",
+        "2021-06-20"
+      ],
+      "organisation": {
+        "id": 173,
+        "name": "KNWU (Weg)",
+        "description": "",
+        "slug": "knwu-weg",
+        "seated_at_city": "Arnhem",
+        "seated_at_county_province": "Gelderland",
+        "founded_at": null,
+        "website": "",
+        "email": null,
+        "twitter": null,
+        "instagram": null,
+        "facebook": null,
+        "state": "approved",
+        "logo": ""
+      },
+      "addresses": [
+        {
+          "id": 122471,
+          "description": "Vam Berg",
+          "street": "Vamweg",
+          "suffix": null,
+          "house_number": 5,
+          "postal_code": "9418TM",
+          "city": "Wijster",
+          "country": {
+            "key": "NED",
+            "label": "Nederland"
+          },
+          "geolocation": {
+            "lat": 52.795624,
+            "lng": 6.527869
+          }
+        }
+      ],
+      "races": [
+        {
+          "id": 55485,
+          "name": "Professional-A, Professional-B (M)",
+          "date": "2021-06-19T22:00:00.000000Z",
+          "time": "00:00",
+          "state": "scheduled",
+          "marked": false,
+          "duration": 0,
+          "length": 0,
+          "laps": 0,
+          "registration_limit": 0,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 21,
+            "key": "National Championship",
+            "name": "Nationaal kampioenschap",
+            "code": "CN",
+            "needs_validation": 1
+          },
+          "results": []
+        },
+        {
+          "id": 56403,
+          "name": "Belofte (UCI), Elite (UCI), Professional-B (V)",
+          "date": "2021-06-18T22:00:00.000000Z",
+          "time": "00:00",
+          "state": "scheduled",
+          "marked": false,
+          "duration": 0,
+          "length": 0,
+          "laps": 0,
+          "registration_limit": 0,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 21,
+            "key": "National Championship",
+            "name": "Nationaal kampioenschap",
+            "code": "CN",
+            "needs_validation": 1
+          },
+          "results": []
+        },
+        {
+          "id": 56405,
+          "name": "Belofte (M)",
+          "date": "2021-06-18T22:00:00.000000Z",
+          "time": "00:00",
+          "state": "scheduled",
+          "marked": false,
+          "duration": 0,
+          "length": 0,
+          "laps": 0,
+          "registration_limit": 0,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 21,
+            "key": "National Championship",
+            "name": "Nationaal kampioenschap",
+            "code": "CN",
+            "needs_validation": 1
+          },
+          "results": []
+        }
+      ],
+      "regions": [
+        {
+          "id": 3,
+          "name": "Noord",
+          "type": "district"
+        }
+      ],
+      "reports": [
+        {
+          "id": 89,
+          "state": "draft",
+          "can": {
+            "submit": false
+          }
+        }
+      ],
+      "can": {
+        "activity": false
+      }
+    },
+    {
+      "id": 3407,
+      "name": "Ronde van Utrecht",
+      "state": "scheduled",
+      "date": [
+        "2021-06-20"
+      ],
+      "organisation": {
+        "id": 505,
+        "name": "Stichting Wielerplatform Utrecht",
+        "description": "",
+        "slug": "stichting-wielerplatform-utrecht",
+        "seated_at_city": "Utrecht",
+        "seated_at_county_province": "Utrecht",
+        "founded_at": "2003-05-27",
+        "website": "www.wielerplatformutrecht.nl",
+        "email": null,
+        "twitter": null,
+        "instagram": null,
+        "facebook": null,
+        "state": "approved",
+        "logo": ""
+      },
+      "addresses": [
+        {
+          "id": 122329,
+          "description": "Wieleraccommodatie de Nedereindse Berg",
+          "street": "Nedereindseweg",
+          "suffix": "W",
+          "house_number": 501,
+          "postal_code": "3546 PM",
+          "city": "Utrecht",
+          "country": {
+            "key": "NED",
+            "label": "Nederland"
+          },
+          "geolocation": {
+            "lat": 52.040517,
+            "lng": 5.06343
+          }
+        }
+      ],
+      "races": [
+        {
+          "id": 55372,
+          "name": "Sportklasse (M)",
+          "date": "2021-06-20T08:30:38.000000Z",
+          "time": "10:30",
+          "state": "scheduled",
+          "marked": false,
+          "duration": 0,
+          "length": 50000,
+          "laps": 0,
+          "registration_limit": 90,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 7.5,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 103,
+            "key": "Nationale wedstrijd",
+            "name": "Nationale wedstrijd",
+            "code": "National",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 55448,
+          "name": "Amateurs, Elite (M)",
+          "date": "2021-06-20T10:00:11.000000Z",
+          "time": "12:00",
+          "state": "scheduled",
+          "marked": false,
+          "duration": 0,
+          "length": 70000,
+          "laps": 0,
+          "registration_limit": 90,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 7.5,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 103,
+            "key": "Nationale wedstrijd",
+            "name": "Nationale wedstrijd",
+            "code": "National",
+            "needs_validation": 0
+          },
+          "results": []
+        }
+      ],
+      "regions": [
+        {
+          "id": 2,
+          "name": "Midden",
+          "type": "district"
+        }
+      ],
+      "reports": [],
+      "can": {
+        "activity": false
+      }
+    },
+    {
+      "id": 2942,
+      "name": "3e Omloop van Blijham",
+      "state": "canceled",
+      "date": [
+        "2021-06-20"
+      ],
+      "organisation": {
+        "id": 235,
+        "name": "W.V. Omega",
+        "description": "",
+        "slug": "wv-omega",
+        "seated_at_city": "Zuidbroek",
+        "seated_at_county_province": "Groningen",
+        "founded_at": "1989-10-09",
+        "website": "www.wvomega.nl",
+        "email": "wvomega@gmail.com",
+        "twitter": null,
+        "instagram": null,
+        "facebook": "\/wvomega",
+        "state": "approved",
+        "logo": "https:\/\/mijn.knwu.nl\/organisations\/wv-omega\/logo"
+      },
+      "addresses": [
+        {
+          "id": 120825,
+          "description": "Sportpark",
+          "street": "Raadhuisstraat",
+          "suffix": "C",
+          "house_number": 23,
+          "postal_code": "9697PN",
+          "city": "Blijham",
+          "country": {
+            "key": "NED",
+            "label": "Nederland"
+          },
+          "geolocation": {
+            "lat": 53.105464,
+            "lng": 7.079541
+          }
+        }
+      ],
+      "races": [
+        {
+          "id": 52679,
+          "name": "Amateurs (M)",
+          "date": "2021-06-20T13:00:00.000000Z",
+          "time": "15:00",
+          "state": "canceled",
+          "marked": false,
+          "duration": 0,
+          "length": 64000,
+          "laps": 20,
+          "registration_limit": 100,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": null,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 103,
+            "key": "Nationale wedstrijd",
+            "name": "Nationale wedstrijd",
+            "code": "National",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 52680,
+          "name": "Sportklasse (M)",
+          "date": "2021-06-20T11:00:00.000000Z",
+          "time": "13:00",
+          "state": "canceled",
+          "marked": false,
+          "duration": 0,
+          "length": 55000,
+          "laps": 17,
+          "registration_limit": 100,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": null,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 103,
+            "key": "Nationale wedstrijd",
+            "name": "Nationale wedstrijd",
+            "code": "National",
+            "needs_validation": 0
+          },
+          "results": []
+        }
+      ],
+      "regions": [
+        {
+          "id": 3,
+          "name": "Noord",
+          "type": "district"
+        }
+      ],
+      "reports": [],
+      "can": {
+        "activity": false
+      }
+    },
+    {
+      "id": 2768,
+      "name": "Wielerronde Riethoven",
+      "state": "canceled",
+      "date": [
+        "2021-06-21"
+      ],
+      "organisation": {
+        "id": 1796,
+        "name": "Stichting Wielerevenementen Riethoven",
+        "description": null,
+        "slug": "stichting-wielerevenementen-riethoven",
+        "seated_at_city": "Riethoven",
+        "seated_at_county_province": "Noord-Brabant",
+        "founded_at": "1970-01-01",
+        "website": null,
+        "email": null,
+        "twitter": null,
+        "instagram": null,
+        "facebook": null,
+        "state": "approved",
+        "logo": ""
+      },
+      "addresses": [
+        {
+          "id": 120012,
+          "description": "Bistro-Hotel De Sleutel",
+          "street": "Dorpsstraat",
+          "suffix": "A",
+          "house_number": 1,
+          "postal_code": "5561 AS",
+          "city": "Riethoven",
+          "country": {
+            "key": "NED",
+            "label": "Nederland"
+          },
+          "geolocation": {
+            "lat": 51.351954,
+            "lng": 5.386489
+          }
+        }
+      ],
+      "races": [
+        {
+          "id": 51899,
+          "name": "7-8 jarigen",
+          "date": "2021-06-21T12:00:00.000000Z",
+          "time": "14:00",
+          "state": "canceled",
+          "marked": false,
+          "duration": 0,
+          "length": 0,
+          "laps": 0,
+          "registration_limit": 50,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 101,
+            "key": "Class 4",
+            "name": "Regiowedstrijd (interclub)",
+            "code": "1.4",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 51900,
+          "name": "9-10 jarigen",
+          "date": "2021-06-21T12:00:00.000000Z",
+          "time": "14:00",
+          "state": "canceled",
+          "marked": false,
+          "duration": 0,
+          "length": 0,
+          "laps": 0,
+          "registration_limit": 50,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 101,
+            "key": "Class 4",
+            "name": "Regiowedstrijd (interclub)",
+            "code": "1.4",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 51901,
+          "name": "11-12 jarigen",
+          "date": "2021-06-21T12:00:00.000000Z",
+          "time": "14:00",
+          "state": "canceled",
+          "marked": false,
+          "duration": 0,
+          "length": 0,
+          "laps": 0,
+          "registration_limit": 50,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 101,
+            "key": "Class 4",
+            "name": "Regiowedstrijd (interclub)",
+            "code": "1.4",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 52917,
+          "name": "Funklasse (M)",
+          "date": "2021-06-21T13:00:00.000000Z",
+          "time": "15:00",
+          "state": "canceled",
+          "marked": false,
+          "duration": 0,
+          "length": 40000,
+          "laps": 0,
+          "registration_limit": 75,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "type": {
+            "id": 18,
+            "key": "Criterium",
+            "name": "Criterium",
+            "code": "CRT"
+          },
+          "classification": {
+            "id": 15,
+            "key": "Class 4",
+            "name": "Regiowedstrijd (interclub)",
+            "code": "1.4",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 52919,
+          "name": "Belofte (club), Belofte (UCI), Elite (club), Elite (UCI), Professional-B (V)",
+          "date": "2021-06-21T14:30:00.000000Z",
+          "time": "16:30",
+          "state": "canceled",
+          "marked": false,
+          "duration": 0,
+          "length": 60000,
+          "laps": 0,
+          "registration_limit": 100,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 103,
+            "key": "Nationale wedstrijd",
+            "name": "Nationale wedstrijd",
+            "code": "National",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 52927,
+          "name": "Amateurs, Belofte, Elite, Professional-B (M)",
+          "date": "2021-06-21T16:30:00.000000Z",
+          "time": "18:30",
+          "state": "canceled",
+          "marked": false,
+          "duration": 0,
+          "length": 90000,
+          "laps": 0,
+          "registration_limit": 100,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 103,
+            "key": "Nationale wedstrijd",
+            "name": "Nationale wedstrijd",
+            "code": "National",
+            "needs_validation": 0
+          },
+          "results": []
+        }
+      ],
+      "regions": [
+        {
+          "id": 7,
+          "name": "Zuid-Oost",
+          "type": "district"
+        }
+      ],
+      "reports": [],
+      "can": {
+        "activity": false
+      }
+    },
+    {
+      "id": 3174,
+      "name": "57e Wielerronde van Maassluis",
+      "state": "canceled",
+      "date": [
+        "2021-06-22"
+      ],
+      "organisation": {
+        "id": 70,
+        "name": "RCMD de Coureur",
+        "description": "RCMD De Coureur is voortgekomen uit een fusie tussen de RennersClub Schiedam (1934) en VRC De Coureur (1949) uit Vlaardingen.\n\nDe na de oorlog opgerichte VRC De Coureur hield als verzamelpunt ofwel clubhuis het Volksgebouw aan de Schiedamseweg aan. Eind jaren zestig werd er een eigen clubhuis aan de Stephensonweg in de Vergulde Hand te Vlaardingen gebouwd. In de Vergulde Hand zijn ook steeds de clubwedstrijden georganiseerd. Een jaarlijks terugkerend evenement is toen ook ontstaan: de koppeltijdrit Vlaardingen - Maassluis - Vlaardingen, die nog steeds ieder jaar als seizoens-afsluiting door De Coureur wordt georganiseerd.\n\nWielerparkoers\nEind jaren tachtig werd het door het toenemende verkeer in de Vergulde Hand steeds gevaarlijker om daar de clubwedstrijden te organiseren. Het bestuur heeft toen met het recreatieschap Midden Delfland een plan ontwikkelt voor een mooi en afgesloten wielerparkoers. Het parcours van RCMD De Coureur behoort tot een van de mooiste van Nederland.\n\nAanbod\nHet wegwielrennen wordt op bijna elk niveau beoefend bij RCMD De Coureur: door jong en oud, door man of vrouw; van elite-renners tot trimmers. De wielrenners kunnen beschikken over een eigen accommodatie met kleed- en doucheruimte.",
+        "slug": "rcmd-de-coureur",
+        "seated_at_city": "Maassluis",
+        "seated_at_county_province": "Zuid-Holland",
+        "founded_at": "1949-01-01",
+        "website": "www.decoureur.nl",
+        "email": null,
+        "twitter": null,
+        "instagram": null,
+        "facebook": null,
+        "state": "approved",
+        "logo": "https:\/\/mijn.knwu.nl\/organisations\/rcmd-de-coureur\/logo"
+      },
+      "addresses": [
+        {
+          "id": 120936,
+          "description": "Della Casa",
+          "street": "Keucheniusstraat",
+          "suffix": null,
+          "house_number": 2,
+          "postal_code": "3144EM",
+          "city": "Maassluis",
+          "country": {
+            "key": "NED",
+            "label": "Nederland"
+          },
+          "geolocation": {
+            "lat": 51.920135,
+            "lng": 4.249876
+          }
+        },
+        {
+          "id": 120937,
+          "description": null,
+          "street": "Keucheniusstraat",
+          "suffix": null,
+          "house_number": 0,
+          "postal_code": "3144EM",
+          "city": "Maassluis",
+          "country": {
+            "key": "NED",
+            "label": "Nederland"
+          },
+          "geolocation": {
+            "lat": 51.920065,
+            "lng": 4.249601
+          }
+        }
+      ],
+      "races": [
+        {
+          "id": 54283,
+          "name": "Sportklasse\/Startlicentie (M)",
+          "date": "2021-06-22T17:00:00.000000Z",
+          "time": "19:00",
+          "state": "canceled",
+          "marked": false,
+          "duration": 0,
+          "length": 0,
+          "laps": 0,
+          "registration_limit": 100,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "type": {
+            "id": 18,
+            "key": "Criterium",
+            "name": "Criterium",
+            "code": "CRT"
+          },
+          "classification": {
+            "id": 103,
+            "key": "Nationale wedstrijd",
+            "name": "Nationale wedstrijd",
+            "code": "National",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 54284,
+          "name": "Junioren, Amateurs (M)",
+          "date": "2021-06-22T18:15:00.000000Z",
+          "time": "20:15",
+          "state": "canceled",
+          "marked": false,
+          "duration": 0,
+          "length": 0,
+          "laps": 0,
+          "registration_limit": 100,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 103,
+            "key": "Nationale wedstrijd",
+            "name": "Nationale wedstrijd",
+            "code": "National",
+            "needs_validation": 0
+          },
+          "results": []
+        }
+      ],
+      "regions": [
+        {
+          "id": 6,
+          "name": "Zuid Holland",
+          "type": "district"
+        }
+      ],
+      "reports": [],
+      "can": {
+        "activity": false
+      }
+    },
+    {
+      "id": 3467,
+      "name": "Dikke Banden Race Assen",
+      "state": "scheduled",
+      "date": [
+        "2021-06-23"
+      ],
+      "organisation": {
+        "id": 1972,
+        "name": "TodWoensdag",
+        "description": null,
+        "slug": "todwoensdag",
+        "seated_at_city": "Zuidlaren",
+        "seated_at_county_province": "Drenthe",
+        "founded_at": "2020-10-22",
+        "website": null,
+        "email": "koen@todwoensdag.nl",
+        "twitter": null,
+        "instagram": null,
+        "facebook": null,
+        "state": "approved",
+        "logo": "https:\/\/mijn.knwu.nl\/organisations\/todwoensdag\/logo"
+      },
+      "addresses": [
+        {
+          "id": 122929,
+          "description": "Wielerbaan",
+          "street": "Stadsbroek",
+          "suffix": "a",
+          "house_number": 11,
+          "postal_code": "9405 BK",
+          "city": "Assen",
+          "country": {
+            "key": "NED",
+            "label": "Nederland"
+          },
+          "geolocation": {
+            "lat": 52.984141,
+            "lng": 6.544992
+          }
+        },
+        {
+          "id": 122726,
+          "description": "Wielerbaan",
+          "street": "Stadsbroek",
+          "suffix": "a",
+          "house_number": 11,
+          "postal_code": "9405 BK",
+          "city": "Assen",
+          "country": {
+            "key": "NED",
+            "label": "Nederland"
+          },
+          "geolocation": {
+            "lat": 52.984141,
+            "lng": 6.544992
+          }
+        }
+      ],
+      "races": [
+        {
+          "id": 55622,
+          "name": "Loopfiets (2 t\/m 4 jarigen)",
+          "date": "2021-06-23T12:30:00.000000Z",
+          "time": "14:30",
+          "state": "scheduled",
+          "marked": false,
+          "duration": 0,
+          "length": 0,
+          "laps": 0,
+          "registration_limit": 50,
+          "approved_participants_count": null,
+          "registration_invite": true,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 101,
+            "key": "Class 4",
+            "name": "Regiowedstrijd (interclub)",
+            "code": "1.4",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 55623,
+          "name": "5-6 jarigen",
+          "date": "2021-06-23T13:00:00.000000Z",
+          "time": "15:00",
+          "state": "scheduled",
+          "marked": false,
+          "duration": 0,
+          "length": 0,
+          "laps": 0,
+          "registration_limit": 50,
+          "approved_participants_count": null,
+          "registration_invite": true,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 101,
+            "key": "Class 4",
+            "name": "Regiowedstrijd (interclub)",
+            "code": "1.4",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 55624,
+          "name": "7-8 jarigen",
+          "date": "2021-06-22T22:00:00.000000Z",
+          "time": "00:00",
+          "state": "scheduled",
+          "marked": false,
+          "duration": 0,
+          "length": 0,
+          "laps": 0,
+          "registration_limit": 50,
+          "approved_participants_count": null,
+          "registration_invite": true,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 101,
+            "key": "Class 4",
+            "name": "Regiowedstrijd (interclub)",
+            "code": "1.4",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 55625,
+          "name": "9-10 jarigen",
+          "date": "2021-06-22T22:00:00.000000Z",
+          "time": "00:00",
+          "state": "scheduled",
+          "marked": false,
+          "duration": 0,
+          "length": 0,
+          "laps": 0,
+          "registration_limit": 50,
+          "approved_participants_count": null,
+          "registration_invite": true,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 101,
+            "key": "Class 4",
+            "name": "Regiowedstrijd (interclub)",
+            "code": "1.4",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 55626,
+          "name": "11-12 jarigen",
+          "date": "2021-06-22T22:00:00.000000Z",
+          "time": "00:00",
+          "state": "scheduled",
+          "marked": false,
+          "duration": 0,
+          "length": 0,
+          "laps": 0,
+          "registration_limit": 50,
+          "approved_participants_count": null,
+          "registration_invite": true,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": 0,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": false,
+          "classification": {
+            "id": 101,
+            "key": "Class 4",
+            "name": "Regiowedstrijd (interclub)",
+            "code": "1.4",
+            "needs_validation": 0
+          },
+          "results": []
+        }
+      ],
+      "regions": [
+        {
+          "id": 3,
+          "name": "Noord",
+          "type": "district"
+        }
+      ],
+      "reports": [],
+      "can": {
+        "activity": false
+      }
+    },
+    {
+      "id": 3472,
+      "name": "Zomeravondcompetitie LWV De Friesche Leeuw",
+      "state": "canceled",
+      "date": [
+        "2021-06-23"
+      ],
+      "organisation": {
+        "id": 119,
+        "name": "LWV de Friesche Leeuw",
+        "description": "",
+        "slug": "lwv-de-friesche-leeuw",
+        "seated_at_city": "Leeuwarden",
+        "seated_at_county_province": "Friesland",
+        "founded_at": "1940-11-10",
+        "website": "www.friescheleeuw.nl",
+        "email": null,
+        "twitter": "\/defriescheleeuw",
+        "instagram": null,
+        "facebook": "\/LWV-De-Friesche-Leeuw-355867511184017",
+        "state": "approved",
+        "logo": ""
+      },
+      "addresses": [
+        {
+          "id": 122747,
+          "description": "Wielerbaan Kalverdijkje",
+          "street": "Kalverdijkje",
+          "suffix": null,
+          "house_number": 64,
+          "postal_code": "8924 JJ",
+          "city": "Leeuwarden",
+          "country": {
+            "key": "NED",
+            "label": "Nederland"
+          },
+          "geolocation": {
+            "lat": 53.205175,
+            "lng": 5.8316099999999995
+          }
+        }
+      ],
+      "races": [
+        {
+          "id": 55638,
+          "name": "Nieuwelingen en Dames",
+          "date": "2021-06-23T17:00:00.000000Z",
+          "time": "19:00",
+          "state": "canceled",
+          "marked": false,
+          "duration": 0,
+          "length": 0,
+          "laps": 0,
+          "registration_limit": 50,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": null,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": true,
+          "type": {
+            "id": 18,
+            "key": "Criterium",
+            "name": "Criterium",
+            "code": "CRT"
+          },
+          "classification": {
+            "id": 15,
+            "key": "Class 4",
+            "name": "Regiowedstrijd (interclub)",
+            "code": "1.4",
+            "needs_validation": 0
+          },
+          "results": []
+        },
+        {
+          "id": 55639,
+          "name": "Heren",
+          "date": "2021-06-23T17:00:00.000000Z",
+          "time": "19:00",
+          "state": "canceled",
+          "marked": false,
+          "duration": 0,
+          "length": 0,
+          "laps": 0,
+          "registration_limit": 100,
+          "approved_participants_count": null,
+          "registration_invite": false,
+          "registration_team": false,
+          "registration_team_min": null,
+          "registration_team_max": null,
+          "price": null,
+          "is_heat": false,
+          "is_team": false,
+          "is_relay": false,
+          "is_mixed": false,
+          "is_time_trial": false,
+          "is_part": false,
+          "online_payment": true,
+          "type": {
+            "id": 18,
+            "key": "Criterium",
+            "name": "Criterium",
+            "code": "CRT"
+          },
+          "classification": {
+            "id": 15,
+            "key": "Class 4",
+            "name": "Regiowedstrijd (interclub)",
+            "code": "1.4",
+            "needs_validation": 0
+          },
+          "results": []
+        }
+      ],
+      "regions": [
+        {
+          "id": 3,
+          "name": "Noord",
+          "type": "district"
+        }
+      ],
+      "reports": [],
+      "can": {
+        "activity": false
+      }
+    }
+  ],
+  "links": {
+    "first": "\/?page=1",
+    "last": "\/?page=21",
+    "prev": "\/?page=4",
+    "next": "\/?page=6"
+  },
+  "meta": {
+    "current_page": 5,
+    "from": 61,
+    "last_page": 21,
+    "links": [
+      {
+        "url": "\/?page=4",
+        "label": "pagination.previous",
+        "active": false
+      },
+      {
+        "url": "\/?page=1",
+        "label": "1",
+        "active": false
+      },
+      {
+        "url": "\/?page=2",
+        "label": "2",
+        "active": false
+      },
+      {
+        "url": "\/?page=3",
+        "label": "3",
+        "active": false
+      },
+      {
+        "url": "\/?page=4",
+        "label": "4",
+        "active": false
+      },
+      {
+        "url": "\/?page=5",
+        "label": "5",
+        "active": true
+      },
+      {
+        "url": "\/?page=6",
+        "label": "6",
+        "active": false
+      },
+      {
+        "url": "\/?page=7",
+        "label": "7",
+        "active": false
+      },
+      {
+        "url": "\/?page=8",
+        "label": "8",
+        "active": false
+      },
+      {
+        "url": "\/?page=9",
+        "label": "9",
+        "active": false
+      },
+      {
+        "url": "\/?page=10",
+        "label": "10",
+        "active": false
+      },
+      {
+        "url": null,
+        "label": "...",
+        "active": false
+      },
+      {
+        "url": "\/?page=20",
+        "label": "20",
+        "active": false
+      },
+      {
+        "url": "\/?page=21",
+        "label": "21",
+        "active": false
+      },
+      {
+        "url": "\/?page=6",
+        "label": "pagination.next",
+        "active": false
+      }
+    ],
+    "path": "\/",
+    "per_page": 15,
+    "to": 75,
+    "total": 311
+  },
+  "can": {
+    "create": false,
+    "export": false
+  }
+}

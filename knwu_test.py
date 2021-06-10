@@ -19,9 +19,6 @@ def get_args():
         description='Rock the Casbah',
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
-    parser.add_argument('positional',
-                        metavar='str',
-                        help='A positional argument')
 
     parser.add_argument('-a',
                         '--arg',
@@ -43,7 +40,7 @@ def get_args():
                         metavar='FILE',
                         required=False,
                         type=argparse.FileType('rt'),
-                        default='testdata.json')
+                        default='excelsior.json')
 
     parser.add_argument('-o',
                         '--on',
@@ -62,7 +59,6 @@ def main():
     int_arg = args.int
     file_arg = args.file
     flag_arg = args.on
-    pos_arg = args.positional
 
     print(f'str_arg = "{str_arg}"')
     print(f'int_arg = "{int_arg}"')
@@ -70,11 +66,11 @@ def main():
     print(f'flag_arg = "{flag_arg}"')
     # print(f'positional = "{pos_arg}"')
 
-    # writeRaces(file_arg)
+    writeRaces(file_arg)
 
-    regex = r'[Nn]ieuweling.*\(M'
+    # regex = r'[Nn]ieuweling.*\(M'
 
-    print(re.search(regex, pos_arg))
+    # print(re.search(regex, pos_arg))
 
     # for i in range(1,10):
     #     print(f"page {i}", end='\r' if i<9 else '\n')
@@ -85,8 +81,9 @@ def main():
 def writeRaces(file_arg):
     data = json.load(file_arg)
 
+    catRegexx =r'[Nn]ieuweling(en)?'
     # filter out races for Nieuwelingen:
-    res =  list(filter(lambda x: filterCat( x),  data))
+    res =  list(filter(lambda x: filterCat(catRegexx, x),  data['data']))
 
     sortOnProps(res, 'date', 'id')
     out_fh = open('out.txt', 'wt')
@@ -98,12 +95,16 @@ def writeRaces(file_arg):
     out_fh.close()
 
 
-def filterCat(e):
+def filterCat(catRegex, e):
     if not 'races' in e:
+        print(f'{e["name"]} bevat geen races')
         return False
+
     for cat_name in map(lambda y: y['name'], e['races']):
-        print(f'catName={cat_name}')
-        if re.search(r'Nieuweling.*\(M',cat_name):
+        # ignore wedstrijden voor alleen vrouwen:
+        if re.search(r'\(\s*V\s*\)', cat_name):
+            continue
+        if re.search(catRegex,cat_name):
             return True 
 
     return False
@@ -113,7 +114,7 @@ def sortOnProps(coll, primaryProp, secondaryProp):
     groups=defaultdict(list)
 
     for i in coll:
-        groups[i[primaryProp]].append(i)
+        groups[i[primaryProp][0]].append(i)
 
     result = []
     myFunc = lambda x: x[secondaryProp]
