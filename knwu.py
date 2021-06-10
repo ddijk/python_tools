@@ -160,6 +160,9 @@ def filterCategory(catRegex, e):
         return False
 
     for cat_name in map(lambda y: y['name'], e['races']):
+        # ignore wedstrijden voor alleen vrouwen:
+        if re.search(r'\(\s*V\s*\)', cat_name):
+            continue
         if re.search(catRegex,cat_name):
             return True 
 
