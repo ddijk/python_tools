@@ -12,6 +12,7 @@ import re
 import math
 import json
 from collections import defaultdict
+from time import ctime
 # --------------------------------------------------
 def get_args():
     """Get command-line arguments"""
@@ -150,6 +151,7 @@ def main():
         print(f'{i["name"]} op {datum}')
 
     out_fh.close()
+    print(f'\n*** Klaar op {ctime()}')
 
 
 def filterRaces(catRegex, data):
