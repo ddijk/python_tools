@@ -112,6 +112,7 @@ def main():
     nieuwelingenRaces = []
 
     catRegexx =r'[Nn]ieuweling(en)?'
+#    catRegexx =r'[Nn][Ww][Ll]'
     
     nieuwelingenRaces.extend(filterRaces(catRegexx, events["data"]))
     if debug_flag:
