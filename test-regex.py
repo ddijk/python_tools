@@ -40,9 +40,18 @@ def testMatch9():
     event = createEvent('Nieuwelingen ( V )')
     assert filterCategory(regex, event) == False
 
+def testMatch10():
+    event = createEvent('Nieuwelingen (M)')
+    assert filterCategory(regex, event) 
+
 def testSkipVrouwenOnlyRace():
     event = createEvents('Nieuwelingen ( V )', 'Nieuwelingen')
     assert filterCategory(regex, event) 
+
+def testMV_separately_between_parenthesis(): 
+    event = createEvent('Open tijdrit tevens DK Nieuwelingen (M) en (V) - Midden')
+    assert filterCategory(regex, event) 
+
 #======================
 def createEvent(cat):
     race ={ 'name': cat}
