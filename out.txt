@@ -1,5 +1,3 @@
-Wielerweekend Omloop der Kempen op 2021-07-03 
-Omloop Flevoland #1 op 2021-07-04 
 DK Tijdrijden Oost op 2021-07-06 
 Zomeravond trainingswedstrijd #2 LWV De Friesche Leeuw op 2021-07-07 
 Bataaf Donderdagavondcompetitie 2021 - 2e avond op 2021-07-08 
@@ -10,6 +8,8 @@ Riderz MTB Race Spaarnwoude - 3 Nations Cup op 2021-07-11
 Airolube MTB Zomer Cup Noord 2021 #2 op 2021-07-11 
 ZoMoCo HSK Trias op 2021-07-11 
 LCCT Panheel & DK tijdrijden Limburg junioren (m/v) en nieuwelingen (m/v) op 2021-07-14 
+Zomeravond trainingswedstrijd #3 LWV De Friesche Leeuw op 2021-07-14 
+Bataaf Donderdagavondcompetitie 2021 - 3e avond op 2021-07-15 
 53ste Ronde van Philippine op 2021-07-16 
 NK Baan Omnium Zomer op 2021-07-17 
 Airolube MTB Zomer Cup Noord 2021 #3 op 2021-07-17 
@@ -31,6 +31,7 @@ Woensdrechtse Wielerzomer Ossendrecht op 2021-09-11
 Omloop van de Braakman, Nieuwelingen en Junioren op 2021-09-18 
 Ploegentijdrit Wielerweekend Gilze op 2021-09-18 
 Ronde van de Uithof op 2021-09-18 
+Woensdrechtse Wielerzomer Putte op 2021-09-25 
 Omloop van Schijndel / GP Jozon op 2021-09-26 
 Omloop van de Maasvallei op 2021-10-16 
 NK Wegwielrennen 15-18 jr (M-V)/Elite ZC/El-Bel. club Vr. op 2021-10-23 
