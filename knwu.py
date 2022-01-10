@@ -109,15 +109,14 @@ def main():
     total_number_races= events["meta"]["total"]
     per_page = events["meta"]["per_page"]
 
-    nieuwelingenRaces = []
+    races = []
 
-    catRegexx =r'[Nn]ieuweling(en)?'
-#    catRegexx =r'[Nn][Ww][Ll]'
+    catRegexx =r'[Jj]unior(en)?'
     
-    nieuwelingenRaces.extend(filterRaces(catRegexx, events["data"]))
+    races.extend(filterRaces(catRegexx, events["data"]))
     if debug_flag:
-        [print(f'naam={r["name"]}') for r in nieuwelingenRaces]
-        print(f'==============={len(nieuwelingenRaces)}')
+        [print(f'naam={r["name"]}') for r in races]
+        print(f'==============={len(races)}')
 
     # first page already retrieved, so start at index '1'
     num_pages = math.ceil(total_number_races/per_page)
@@ -128,17 +127,17 @@ def main():
         print(f"page {next_page}", end='\r' if i<num_pages-1 else '\n')
         responseEvents = session.get(f'{url}/api/events?view=list&page={next_page}&filter[discipline]=&filter[location]=&filter[type]=&filter[region]=&filter[state]=&filter[gender]=&filter[role]=&include[1]=organisation&include[2]=races.classification', cookies=cookies3, proxies=proxy, headers=headers2)
         events = responseEvents.json()
-        nieuwelingenRaces.extend(filterRaces(catRegexx, events["data"]))
+        races.extend(filterRaces(catRegexx, events["data"]))
         if debug_flag:
-            [print(f'naam={r["name"]} id={r["id"]}') for r in nieuwelingenRaces]
-            print(f'==============={len(nieuwelingenRaces)}')
+            [print(f'naam={r["name"]} id={r["id"]}') for r in races]
+            print(f'==============={len(races)}')
 
     out_fh = open('out.txt', 'wt')
 
     # to filter out duplicates. Het bleek dat sommige races op 2 pagina's terugkwamen
     processed_race_names=[]
     
-    multi_level_sorted = sortOnProps(nieuwelingenRaces, "date", "id")
+    multi_level_sorted = sortOnProps(races, "date", "id")
 
 
     for i in multi_level_sorted:
