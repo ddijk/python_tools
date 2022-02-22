@@ -1,11 +1,6 @@
-Voorjaarstrainingswedstrijden WSV Emmen  #2 op 2022-02-12 
-Trainingskoers RWC Ahoy op 2022-02-12 
-Voorjaarscompetitie District Midden #2 op 2022-02-13 
-NK OMNIUM Jun. m/v Elite/ Belofte m/v NK STAYEREN M op 2022-02-13 
 Voorjaarstrainingswedstrijden WSV Emmen  #3 op 2022-02-19 
 Trainingskoers (M) @RWC Ahoy op 2022-02-19 
 Woman-Trainingskoers RWC Ahoy op 2022-02-19 
-Martijn's Race en MTB trophy 2 op 2022-02-20 
 Voorjaarscompetitie District Midden 2022 #3 op 2022-02-20 
 Voorjaarstrainingswedstrijden WSV Emmen  #4 op 2022-02-26 
 C6 Trainingseries @RWC Ahoy (koers 1 van 6) op 2022-02-26 
@@ -15,6 +10,7 @@ Voorjaarstrainingswedstrijden WSV Emmen  #5 op 2022-03-05
 C6 Trainingseries @PRC Delta (koers 2 van 6) op 2022-03-05 
 Voorjaarscompetitie District Midden #5 op 2022-03-06 
 Finale wintercompetitie Havelte/Steenwijk op 2022-03-06 
+DC - Achterhoek Cup op 2022-03-12 
 Voorjaarstrainingswedstrijden WSV Emmen  #6 op 2022-03-12 
 C6 Trainingseries @HSK Trias (koers 3 van 6) / Haags Kampioenschap op 2022-03-12 
 Omloop van Schijndel - GP Jozon op 2022-03-13 
@@ -23,15 +19,18 @@ Open kampioenschap Groene hart op 2022-03-13
 Ronde van Oud-Vossemeer op 2022-03-19 
 C6 Trainingseries @Westland Wil Vooruit (koers 4 van 6) op 2022-03-19 
 Voorjaarscompetitie District Midden #7 op 2022-03-20 
+C6 Trainingseries @De Coureur (koers 5 van 6) op 2022-03-26 
 Ronde van de Uithof op 2022-03-27 
 "Brabantse Wal Wielerevent" Huijbergen op 2022-03-27 
 Voorjaarscompetitie District Midden #8 op 2022-03-27 
 TCJ & TCJV - 50e L&M Workwear Omloop van Noordwest Overijssel / Grote Prijs Anna van der Breggen op 2022-04-02 
 C6 Trainingseries @De Spartaan (koers 6 van 6) op 2022-04-02 
+Ready2Race Dikke Banden Races op 2022-04-02 
 TCJ - Arno Wallaard Memorial Junioren op 2022-04-16 
 Zwiep Scott Cup 2022 op 2022-04-16 
 54e Grote Ronde van Gerwen op 2022-04-18 
 EPZ Omloop van Borsele 2022 op 2022-04-22 
+Koningscup Havelte op 2022-04-24 
 De  80ste Ronde van Geldrop 2022 op 2022-04-24 
 Koningsronde van Beilen op 2022-04-27 
 67e Oranjeronde van Amsterdam op 2022-04-27 
@@ -44,13 +43,17 @@ District Kampioenschap ZH op 2022-06-06
 Districtskampioenschap Midden heren 2022 op 2022-06-06 
 Omloop van de Maasvallei 2022 op 2022-06-11 
 Metec Criterium Tiel 2022 op 2022-06-11 
+38e Rijk Zwaan wielerronde van de Fendert op 2022-06-12 
 14e Wielerronde Hartje Baarn op 2022-06-12 
 DK Tijdrijden Oost op 2022-06-14 
+50e Ronde van Nieuwendijk op 2022-06-18 
 57e Wielerronde van Maassluis op 2022-06-21 
 58e Ronde van Honselersdijk op 2022-06-23 
 66e Wielerronde Maasdijk op 2022-06-29 
 Omloop Giessenburg op 2022-07-02 
+87ste Wielerronde van Kruiningen op 2022-07-02 
 60e Ronde van 's-Gravenzande op 2022-07-06 
+Ronde van Groot Ammers op 2022-07-09 
 50ste Lus van Roden op 2022-07-09 
 71e Ronde van Poeldijk op 2022-07-24 
 48e Profronde Westland op 2022-07-28 
@@ -67,3 +70,4 @@ TCJ - Résidence Valkenburg Klim Classic op 2022-08-21
 "Brabantse Wal Wielerevent " Putte op 2022-09-18 
 "Brabantse Wal Wielerevent " Hoogerheide (finale) op 2022-10-02 
 Omloop van de Bollenstreek op 2022-10-02 
+WWV Jaarinschrijving Sjabo Donderdagavondcompetitie op 2022-12-01 
