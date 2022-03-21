@@ -1,10 +1,13 @@
 import time
 from multiprocessing import Process
+import multiprocessing
 import setproctitle
 
 def func():
     i = 0
-    setproctitle.setproctitle(multiprocessing.current_process().name)
+    naam = multiprocessing.current_process().name
+    print(f'name to set is {naam}')
+    setproctitle.setproctitle(naam)
     while True:
         print(f'Running {i}')
         i = i + 1
