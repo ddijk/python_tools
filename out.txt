@@ -1,24 +1,10 @@
-TCJ - Arno Wallaard Memorial Junioren op 2022-04-16 
-XLC 3 Nations Cup: Zwiep Scott Cup & LJC op 2022-04-16 
-UEC BMX European Cup - Round 3 (BEL) op 2022-04-16 
-UEC BMX European Cup - Round 4 (BEL) op 2022-04-17 
-54e Grote Ronde van Gerwen op 2022-04-18 
-Dekobikesport Dinsdagavond competitie Rit 4 op 2022-04-19 
-Trainingskoers RWC Ahoy (vrije indeling) op 2022-04-19 
-Trainingskoers RWC Ahoy (promotieklassement) op 2022-04-21 
-EPZ Omloop van Borsele 2022 op 2022-04-22 
-Koningscup Havelte op 2022-04-24 
-De  80ste Ronde van Geldrop 2022 op 2022-04-24 
-Topcompetitie BMX 2 - Tiel op 2022-04-24 
-ZoMoCo @RWC Ahoy op 2022-04-24 
-Dekobikesport Dinsdagavond competitie Rit 5 op 2022-04-26 
-Koningsronde van Beilen op 2022-04-27 
-67e Oranjeronde van Amsterdam op 2022-04-27 
+Trainingskoers RWC Ahoy (promotieklassement) op 2022-04-28 
 Op Fietse MTB Race - LJC & XLC 3 Nations Cup op 2022-04-30 
 DC - Wieleromnium Sittard - Geleen op 2022-04-30 
 UEC BMX European Cup - Round 5 (BEL-Ravels) op 2022-04-30 
 UEC BMX European Cup - Round 6 (BEL-Ravels) op 2022-05-01 
 ZoMoCo @Westland Wil Vooruit op 2022-05-01 
+Trainingskoers RWC Ahoy (vrije indeling) op 2022-05-03 
 Dekobikesport Dinsdagavond competitie Rit 6 op 2022-05-03 
 LOT @RWC Ahoy (Ladies Only Trainingskoers) op 2022-05-04 
 DC - Col du Vam Tweedaagse op 2022-05-07 
@@ -43,40 +29,51 @@ DK Tijdrijden ZH (Nwl/Jun/El/Bel/Masters.M/Nwl.ms/Jun.Vr) RK ZH-NH (El-Bel.Vr) o
 Wielerronde van Erp op 2022-05-22 
 Topcompetitie BMX 3 - Baarn op 2022-05-22 
 TCJ & TCJV - Omloop Door het Land van Bartje op 2022-05-28 
-Streetrace Staphorst op 2022-05-28 
-Ronde van de Leren Zool Rijen op 2022-05-29 
+CompuStore Streetrace Staphorst op 2022-05-28 
+Ronde van de Leren Zool Rijen & RK Zuid (Jun.Vr./Nwl.Ms) op 2022-05-29 
 UEC BMX European Cup - Round 9 (NED Kampen) op 2022-06-04 
+ZoMoCo @RWC Ahoy op 2022-06-05 
 UEC BMX European Cup - Round 10 (NED Kampen) op 2022-06-05 
 DK ZH (Jun/Elite/Belofte) RK ZH-NH-Midden (E.Vr/B.Vr./prof.B) op 2022-06-06 
 District Kampioenschap Midden (Mannen) op 2022-06-06 
 District Kampioenschap Noord-Holland op 2022-06-06 
 District Kampioenschap Oost op 2022-06-06 
+Regio Kampioenschap Limburg/Zuid-Oost/Zuid-West op 2022-06-06 
 Tour de Lasalle op 2022-06-09 
 Omloop van de Maasvallei 2022 op 2022-06-11 
 Metec Criterium Tiel 2022 op 2022-06-11 
 CCM & TCJ -  Wielerdag Noordenveld op 2022-06-12 
 14e Wielerronde Hartje Baarn op 2022-06-12 
 DK Tijdrijden Oost op 2022-06-14 
+Intechneau MTB Streetrace Ruinen op 2022-06-16 
 38e Omloop van Bedum op 2022-06-18 
 50e Ronde van Nieuwendijk op 2022-06-18 
 Metec Ronde van kampen op 2022-06-18 
+Topcompetitie BMX 4 - Raalte op 2022-06-19 
+Streetrace Nijeveen op 2022-06-20 
 57e Wielerronde van Maassluis op 2022-06-21 
 NK Tijdrijden op 2022-06-22 
 58e Ronde van Honselersdijk op 2022-06-23 
 71e BESTRONICS Acht van Bladel op 2022-06-24 
 UEC BMX European Cup - Round 11 (LET Valmiera) op 2022-06-25 
 UEC BMX European Cup - Round 12 (LET Valmiera) op 2022-06-26 
+MTB Zomer Cup Noord 2022 #3 op 2022-06-26 
+Streetrace Ruinerwold op 2022-06-27 
 66e Wielerronde Maasdijk op 2022-06-29 
 Omloop Giessenburg op 2022-07-02 
 87ste Wielerronde van Kruiningen op 2022-07-02 
 NK Wegwielrennen (Junior-Mannen) op 2022-07-02 
+De Borghman ronde van Bredevoort 2022 op 2022-07-02 
 46e Wielerronde van Nispen op 2022-07-03 
 Jan van Schoot Wielerronde van Oldenzaal. Onderdeel VIRO CCT op 2022-07-03 
 60e Ronde van 's-Gravenzande op 2022-07-06 
 Ronde van Groot Ammers op 2022-07-09 
 50ste Lus van Roden op 2022-07-09 
 GP Snelle Wiel Bestronics op 2022-07-10 
+MTB Zomer Cup Noord 2022 #4 op 2022-07-10 
 71e Ronde van Poeldijk op 2022-07-24 
+Verkeerd aangemaakt: Zie andere zomoco op dezelfde dag op 2022-07-24 
+ZoMoCo @RWC Ahoy (+D-Klasse) op 2022-07-24 
 40e Profronde van Surhuisterveen om de Gouden Fiets op 2022-07-26 
 82e Acht van Chaam op 2022-07-27 
 48e Profronde Westland op 2022-07-28 
@@ -89,6 +86,8 @@ Wielerronde van Nootdorp 2022 op 2022-08-11
 Pijl van Heerlerheide op 2022-08-14 
 71e Valstar Wielerspektakel Naaldwijk op 2022-08-16 
 TCJ - Résidence Valkenburg Klim Classic op 2022-08-21 
+Hel van Boak op 2022-08-21 
+Streetrace de Wijk op 2022-08-24 
 DC Bergomloop Simpelveld op 2022-08-28 
 82e Wielerronde van Dordrecht op 2022-09-03 
 66ste Ster van Berkel op 2022-09-10 
