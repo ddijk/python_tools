@@ -1,91 +1,54 @@
-ZoMoCo @RWC Ahoy op 2022-06-05 
-UEC BMX European Cup - Round 10 (NED Kampen) op 2022-06-05 
-DK ZH (Jun/Elite/Belofte) RK ZH-NH-Midden (E.Vr/B.Vr./prof.B) + Officieus RK ZH-NH-Midden Am.Vr. op 2022-06-06 
-District Kampioenschap Midden (Mannen) op 2022-06-06 
-District Kampioenschap Noord-Holland op 2022-06-06 
-District Kampioenschap Oost op 2022-06-06 
-Regio Kampioenschap Limburg/Zuid-Oost/Zuid-West op 2022-06-06 
-District Kampioenschap Noord Col du VAM op 2022-06-06 
-Trainingskoers RWC Ahoy (vrije indeling) op 2022-06-07 
-Dekobikesport Dinsdagavond competitie Rit 11 op 2022-06-07 
-Tour de Lasalle op 2022-06-09 
-Trainingskoers RWC Ahoy (promotieklassement) op 2022-06-09 
-Omloop van de Maasvallei 2022 op 2022-06-11 
-Metec Criterium Tiel 2022 op 2022-06-11 
-CCM & TCJ -  Wielerdag Noordenveld op 2022-06-12 
-14e Wielerronde Hartje Baarn op 2022-06-12 
-ZoMoCo @Westland Wil Vooruit + aparte Dames classe op 2022-06-12 
-DK Tijdrijden Oost op 2022-06-14 
-Dekobikesport Dinsdagavond competitie Rit 12 op 2022-06-14 
-Intechneau MTB Streetrace Ruinen op 2022-06-16 
-XLC 3 Nations Cup - Watersley XCO Challenge op 2022-06-18 
-Ploegentijdrit Gilze op 2022-06-18 
-38e Omloop van Bedum op 2022-06-18 
-50e Ronde van Nieuwendijk op 2022-06-18 
-Metec Ronde van kampen op 2022-06-18 
-Hart van Gilze op 2022-06-19 
-Topcompetitie BMX 4 - Raalte op 2022-06-19 
-Streetrace Nijeveen op 2022-06-20 
-57e Wielerronde van Maassluis op 2022-06-21 
-Dekobikesport Dinsdagavond competitie Rit 13 op 2022-06-21 
-NK Tijdrijden op 2022-06-22 
-58e Ronde van Honselersdijk op 2022-06-23 
-71e BESTRONICS Acht van Bladel op 2022-06-24 
-UEC BMX European Cup - Round 11 (LET Valmiera) op 2022-06-25 
-UEC BMX European Cup - Round 12 (LET Valmiera) op 2022-06-26 
-Nationaal Kampioenschap ID Cycling op 2022-06-26 
-MTB Zomer Cup Noord 2022 #3 op 2022-06-26 
-Streetrace Ruinerwold op 2022-06-27 
-Dekobikesport Dinsdagavond competitie Rit 14 op 2022-06-28 
-66e Wielerronde Maasdijk op 2022-06-29 
-Specialized klimcriterium Arnhems-buiten op 2022-06-29 
-Omloop Giessenburg op 2022-07-02 
-87ste Wielerronde van Kruiningen op 2022-07-02 
-NK Wegwielrennen (Junior-Mannen) op 2022-07-02 
-46e Wielerronde van Nispen op 2022-07-03 
-Jan van Schoot Wielerronde van Oldenzaal. Onderdeel VIRO CCT op 2022-07-03 
-NK BMX 2022 op 2022-07-03 
-60e Ronde van 's-Gravenzande op 2022-07-06 
-LOT @RWC Ahoy (Ladies Only Trainingskoers) op 2022-07-06 
-Europees Kampioenschap BMX 2022 Dessel (België) EK BMX op 2022-07-07 
-Clubkoers RWC Ahoy - promotieklassement (www.rwcahoy.nl/klassement) op 2022-07-07 
-Nationaal Kampioenschap Tijdrijden ID Cycling op 2022-07-08 
-Ronde van Groot Ammers op 2022-07-09 
-50ste Lus van Roden op 2022-07-09 
-GP Snelle Wiel Bestronics op 2022-07-10 
-MTB Zomer Cup Noord 2022 #4 op 2022-07-10 
-ZoMoCo @ RCMD De Coureur op 2022-07-17 
-MTB Zomer Cup Noord 2022 #5 op 2022-07-20 
-71e Ronde van Poeldijk op 2022-07-24 
-ZoMoCo @RWC Ahoy (+ ook aparte Dames-Klasse) op 2022-07-24 
-40e Profronde van Surhuisterveen om de Gouden Fiets op 2022-07-26 
-Wereld Kampioenschap BMX Racing WK 2022 Nantes op 2022-07-26 
-82e Acht van Chaam op 2022-07-27 
-48e Profronde Westland op 2022-07-28 
-Watersley Junior Challenge 2. Nationscup op 2022-07-29 
-85e Ronde van Roosendaal op 2022-07-31 
-35e Super Criterium van Kwintsheul de G.P. van de Heul op 2022-08-05 
-De 56e Mini EJCTA op 2022-08-05 
-Wielerweekend Moerdijk op 2022-08-06 
-46e Ronde van De Lier op 2022-08-09 
-Wielerronde van Nootdorp 2022 op 2022-08-11 
-Pijl van Heerlerheide op 2022-08-14 
-71e Valstar Wielerspektakel Naaldwijk op 2022-08-16 
 TCJ - Résidence Valkenburg Klim Classic op 2022-08-21 
 Ronde van Delfzijl op 2022-08-21 
 Hel van Boak op 2022-08-21 
+ZOMOCO @PRC Delta op 2022-08-21 
 3e KWF Knobbel Criterium op 2022-08-23 
+Dekobikesport Dinsdagavond competitie Rit 16 op 2022-08-23 
 Streetrace de Wijk op 2022-08-24 
 DC Bergomloop Simpelveld op 2022-08-28 
+ZoMoCo @ HSK Trias op 2022-08-28 
 82e Wielerronde van Dordrecht op 2022-09-03 
+Schwalbe TCM & TCJ - Omloop van Valkenswaard op 2022-09-04 
 Jan Plat ronde op 2022-09-04 
 Ronde van Uithoorn op 2022-09-04 
+3-Nations Cup BMX 2 - Round 2 (BEL) op 2022-09-04 
+Dutch Trials Series - 4 september 2022 - Schijndel op 2022-09-04 
+LOT @RWC Ahoy (Ladies Only Trainingskoers) op 2022-09-07 
 66ste Ster van Berkel op 2022-09-10 
 4e Omloop van Kampen op 2022-09-10 
+Finale MTB Zomer Cup Noord 2022 #6 / Tevens District Kampioenschappen 15+ op 2022-09-11 
+3-Nations Cup BMX 3 - Round 2 (NED) op 2022-09-11 
+ZoMoCo @WV Avanti op 2022-09-11 
+DC - Hoogeland Tweedaagse op 2022-09-17 
 Kleeberg Cross weekend op 2022-09-17 
 Heeren  Groep "Brabantse Wal Wielerevent " Putte op 2022-09-18 
+Nederlands Studenten Kampioenschap Wegwielrennen op 2022-09-18 
+Topcompetitie BMX 5 - Zwanenburg op 2022-09-18 
+Nationaal Kampioenschap (NK) Dutch Trials Series op 2022-09-24 
+Dutch Trials Series op 2022-09-24 
+TCJ - 4e BXS-Voordeligkunststof.nl Omloop van Hil & Moer op 2022-09-25 
 NK MTB Marathon - Geopark Hondsrug Classic op 2022-09-25 
+ZoMoCo @ RCMD De Coureur op 2022-09-25 
 "Brabantse Wal Wielerevent " Hoogerheide (finale) op 2022-10-02 
 Omloop van de Bollenstreek op 2022-10-02 
+NCK Weg (www.nckdronten.nl) op 2022-10-02 
 Finale ZoMoCo @RWC Ahoy op 2022-10-02 
+WV Avanti 60 jaar! Jubileumkoersweekend op 2022-10-08 
+ASC Olympia | Future Series wedstrijd #1 op 2022-10-08 
+Topcompetitie BMX 6 - Barendrecht op 2022-10-09 
+GP Oisterwijk op 2022-10-16 
+Future Serie Wedstrijd 3 Apeldoorn op 2022-10-22 
+OFK Mountainbiken Appelscha op 2022-10-22 
+DAG VAN DE KEIRIN - ook voor buitenlandse renners! op 2022-10-29 
+Nationale Veldrit Almelo op 2022-10-30 
+Future Serie Wedstrijd 4 Apeldoorn op 2022-10-30 
+Future Serie wedstrijd 5 Derny Day! op 2022-11-06 
+NEDERLANDSE KAMPIOENSCHAPPEN PLOEGACHTERVOLGING EN TEAMSPRINT op 2022-11-20 
+Trackseries Apeldoorn Sprint op 2022-11-26 
+Trackseries Apeldoorn Duur op 2022-11-27 
 WWV Jaarinschrijving Sjabo Donderdagavondcompetitie op 2022-12-01 
+Nationale Cross Gerrit Pluimers sr Enter op 2022-12-03 
+Future Serie Wedstrijd 6 Sprint en keirin Apeldoorn op 2022-12-03 
+Nationale Veldrit van Boxtel (i.c.m.  Regio Kampioenschap Veldrijden Zuid) op 2022-12-18 
+Regio Kampioenschap Veldrijden Zuid (i.c.m. nationale veldrit Boxtel) op 2022-12-18 
+"THE NEXT GENERATION" Junioreninterland voor landenselecties op 2023-01-06 
