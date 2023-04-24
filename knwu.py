@@ -10,7 +10,8 @@ import requests
 from requests.models import Response
 import re
 import math
-import json
+from bs4 import BeautifulSoup
+import sys
 from collections import defaultdict
 from time import ctime
 # --------------------------------------------------
@@ -52,7 +53,7 @@ def main():
 
     if not credentials['username'] or not credentials['password']:
         print('username or password missing')
-        return
+        sys.exit()
 
     if debug_flag:
         print('using credentials file = "{}"'.format(file_arg.name if file_arg else ''))
@@ -88,7 +89,7 @@ def main():
     cookies2 = session.cookies.get_dict()
     if response2.status_code != 302:
         print(f'Login failed: {response2.reason}')
-        return
+        sys.exit()
 
     response3 = session.get(f'{url}', cookies=cookies2, verify=verify, proxies=proxy)
 
@@ -173,13 +174,13 @@ def filterCategory(catRegex, e):
     return False
 
 def findToken(response):
-    tokenLine = filter(lambda s: s.find('_token')
-                         != -1, map(bytes.decode, response.iter_lines()))
+    soup = BeautifulSoup(response.text, 'html.parser')
+    token = soup.input['value']
+    if not token:
+        print('Token not found')
+        sys.exit()
 
-    tok = list(tokenLine)[0]
-    m=re.match('.*value="(.+)["]', tok)
-
-    return m.group(1)
+    return token
 
 
 def readCredentials(file):
