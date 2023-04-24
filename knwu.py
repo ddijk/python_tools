@@ -14,6 +14,8 @@ from bs4 import BeautifulSoup
 import sys
 from collections import defaultdict
 from time import ctime
+
+url = 'https://mijn.knwu.nl'
 # --------------------------------------------------
 def get_args():
     """Get command-line arguments"""
@@ -35,16 +37,8 @@ def get_args():
 
     return parser.parse_args()
 
-
-# --------------------------------------------------
-def main():
-    """Make a jazz noise here"""
-
-    args = get_args()
-    file_arg = args.file
-    debug_flag = args.on
-
-    credentials=readCredentials(file_arg)
+def login(credentials_file, debug_flag=False):
+    credentials=readCredentials(credentials_file)
 
     if not credentials['username']:
         print('username is missing') 
@@ -56,12 +50,9 @@ def main():
         sys.exit()
 
     if debug_flag:
-        print('using credentials file = "{}"'.format(file_arg.name if file_arg else ''))
+        print('using credentials file = "{}"'.format(credentials_file.name if credentials_file else ''))
         print(f'debug flag = "{debug_flag}"')
 
-    url = 'https://mijn.knwu.nl'
-
-    
     proxy = { "https": "https://localhost:1080"} if debug_flag else None
     verify = False if debug_flag else True
 
@@ -99,6 +90,19 @@ def main():
         print(f'response on redirect {response3.reason}')
         print(f'cookies van redirect: {cookies3}')
 
+    return (session, cookies3, proxy)
+
+
+# --------------------------------------------------
+def main():
+    """Make a jazz noise here"""
+
+    args = get_args()
+    file_arg = args.file
+    debug_flag = args.on
+
+    session, cookies3, proxy = login(file_arg, debug_flag) 
+
     headers2 = { 'Accept' : 'application/json'}
     responseEvents = session.get(f'{url}/api/events?view=list&page=1&filter[discipline]=&filter[location]=&filter[type]=&filter[region]=&filter[state]=&filter[gender]=&filter[role]=&include[1]=organisation&include[2]=races.classification', cookies=cookies3, proxies=proxy, headers=headers2)
 
@@ -120,7 +124,7 @@ def main():
         print(f'==============={len(races)}')
 
     # first page already retrieved, so start at index '1'
-    num_pages = math.ceil(total_number_races/per_page)
+    num_pages = 2 #math.ceil(total_number_races/per_page)
     for i in range(1, num_pages):
     # for i in range(1, 3):
         # pages start at index 1:
