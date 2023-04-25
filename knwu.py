@@ -56,7 +56,7 @@ def login(credentials_file, debug_flag=False):
     proxy = { "https": "https://localhost:1080"} if debug_flag else None
     verify = False if debug_flag else True
 
-    print(f'using proxy {proxy}')
+    #print(f'using proxy {proxy}')
     session = requests.Session()
 
     response1b = session.get(f'{url}/login', proxies=proxy, verify=verify)
