@@ -8,11 +8,11 @@ def main():
 
     naam = sys.argv[1]
     punten = int(sys.argv[2])
-    print(f'Kijken of {naam} nog steeds {punten} punten heeft')
+    print(f'Kijken of {naam} nog steeds {punten} punten heeft: ', end='')
 
     huidige_aantal = get_punten(naam)
 
-    print('GEWIJZIGD') if punten != huidige_aantal else print('geen update')
+    print('GEWIJZIGD') if punten != huidige_aantal else print(f'geen update, nog steeds {huidige_aantal}')
 
 def get_punten(naam):
     with open('credentials') as creds:
