@@ -3,21 +3,13 @@ from knwu import login
 
 def main():
     if len(sys.argv)<2:
-        print("Geef als eerste arg de naam van de renner, en als tweede het oude aantal punten")
+        print("Geef als de naam van de renner als argument")
         sys.exit()
 
     naam = sys.argv[1]
 
-    if len(sys.argv)>2:
-        punten = int(sys.argv[2])
-        print(f'Kijken of {naam} nog steeds {punten} punten heeft: ', end='')
-    else:
-        punten = 0
+    get_punten(naam)
 
-    huidige_aantal = get_punten(naam)
-
-    if huidige_aantal > 0 and punten:
-        print('GEWIJZIGD') if punten != huidige_aantal else print(f'geen update, nog steeds {huidige_aantal}')
 
 def get_punten(naam):
     with open('credentials') as creds:
@@ -30,15 +22,10 @@ def get_punten(naam):
     if not len(renners['data']):
         print(f'{naam} is niet bekend')
     else:
-        if len(renners['data'])==1: 
-            n = renners['data'][0]['points']
-            return int(n)
-        else:
+        if len(renners['data'])>1: 
             print('Meerdere renners gevonden:')
-            for r in renners['data']:
-                print(f"renner {r['user']['name']} heeft {r['points']} punten")
-    # print(f'aantal punten {n}')
-    return -1
+        for r in renners['data']:
+            print(f"renner {r['user']['name']} heeft {r['points']} punten")
 
 
 
